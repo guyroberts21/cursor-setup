@@ -44,6 +44,19 @@ When asked for current priorities or before a daily briefing:
 2. Run `python3 scripts/build-dashboard.py`
 3. Summarize top priorities (Action needed + P1/P2, oldest updated first)
 
+## Notes and todos
+
+Edit `data/notes.md` (freeform markdown) and `data/todos.md` (checkbox list):
+
+```markdown
+- [ ] Open task
+- [x] Completed task
+```
+
+When Guy asks to add a note or todo, update the markdown file then run `python3 scripts/build-dashboard.py`.
+
+Changes deploy to the site on push to main (GitHub Pages rebuilds automatically).
+
 ## Project id aliases
 
 - edma → EdMa

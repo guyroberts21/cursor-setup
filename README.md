@@ -41,7 +41,24 @@ Or use the `/log-hours` skill.
 | `data/github-cache.json` | Synced GitHub priorities (generated) |
 | `site/data.json` | Dashboard payload (generated) |
 
-## GitHub Pages (private)
+## GitHub Pages (public)
+
+1. Push to `main` — the deploy workflow builds and publishes automatically
+2. Live URL: **https://guyroberts21.github.io/cursor-setup/**
+3. Notes & todos page: **https://guyroberts21.github.io/cursor-setup/personal.html**
+
+## Notes and todos (markdown sync)
+
+Edit these files — they sync to the site on every build/deploy:
+
+| File | Purpose |
+|------|---------|
+| `data/notes.md` | Brief notes (markdown) |
+| `data/todos.md` | Personal todo list (`- [ ]` / `- [x]`) |
+
+Ask Cursor to update them in chat, or edit directly. Then run `python3 scripts/build-dashboard.py` and push to `main`.
+
+## GitHub Pages (private — requires Pro)
 
 1. Push this repo to a **private** GitHub repo
 2. Settings → Pages → Source: **GitHub Actions**
@@ -73,3 +90,4 @@ Open issues assigned to `guyroberts21` (or labelled `people:Guy`) where:
 ## Current week seed
 
 Week 2026-W35 (31 Aug – 6 Sep 2026): 10h total across EdMa, FPMT, Jamyang, Rigpa.
+

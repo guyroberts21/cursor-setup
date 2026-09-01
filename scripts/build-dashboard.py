@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Merge week config, hours log, and GitHub cache into site/data.json."""
+"""Merge week config, hours log, GitHub cache, and personal markdown into site/data.json."""
 from __future__ import annotations
 
 import json
+import re
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -13,10 +14,18 @@ except ImportError:
     print("Install PyYAML: pip install pyyaml", file=sys.stderr)
     raise
 
+try:
+    import markdown
+except ImportError:
+    print("Install markdown: pip install markdown", file=sys.stderr)
+    raise
+
 ROOT = Path(__file__).resolve().parents[1]
 WEEKS_DIR = ROOT / "data" / "weeks"
 HOURS_PATH = ROOT / "data" / "hours-log.yaml"
 CACHE_PATH = ROOT / "data" / "github-cache.json"
+NOTES_PATH = ROOT / "data" / "notes.md"
+TODOS_PATH = ROOT / "data" / "todos.md"
 OUT_PATH = ROOT / "site" / "data.json"
 
 
@@ -96,6 +105,34 @@ def recent_entries(entries: list[dict], limit: int = 14) -> list[dict]:
     return sorted_entries[:limit]
 
 
+def parse_todos(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    todos: list[dict] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = re.match(r"^\s*-\s*\[( |x|X)\]\s+(.+)$", line)
+        if match:
+            todos.append({"text": match.group(2).strip(), "done": match.group(1).lower() == "x"})
+    return todos
+
+
+def load_personal() -> dict:
+    notes_mtime = NOTES_PATH.stat().st_mtime if NOTES_PATH.exists() else None
+    todos_mtime = TODOS_PATH.stat().st_mtime if TODOS_PATH.exists() else None
+    notes_raw = NOTES_PATH.read_text(encoding="utf-8") if NOTES_PATH.exists() else ""
+    notes_html = markdown.markdown(notes_raw, extensions=["extra"]) if notes_raw.strip() else ""
+    todos = parse_todos(TODOS_PATH)
+    updated = max((m for m in (notes_mtime, todos_mtime) if m), default=None)
+    return {
+        "notes_html": notes_html,
+        "notes_source": "data/notes.md",
+        "todos": todos,
+        "todos_source": "data/todos.md",
+        "updated_at": datetime.fromtimestamp(updated).astimezone().isoformat() if updated else None,
+        "open_todos": sum(1 for t in todos if not t["done"]),
+    }
+
+
 def main() -> None:
     today = date.today()
     week_path = find_current_week(today)
@@ -145,6 +182,7 @@ def main() -> None:
         ],
         "recent_log": recent_entries(entries),
         "github_synced_at": cache.get("synced_at"),
+        "personal": load_personal(),
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
