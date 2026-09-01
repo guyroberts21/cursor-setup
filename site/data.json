@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:03:02.109979+01:00",
+  "generated_at": "2026-09-01T22:03:35.348972+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -498,12 +498,14 @@
     "notes_source": "data/notes.md",
     "todos": [
       {
-        "text": "! Mention to Pep about upcoming holiday",
-        "done": false
+        "text": "Mention to Pep about upcoming holiday",
+        "done": false,
+        "priority": true
       },
       {
         "text": "Jamyang Manager role ticket (MD-211) \u2014 tomorrow morning before 10am meeting",
-        "done": false
+        "done": false,
+        "priority": false
       }
     ],
     "todos_source": "data/todos.md",

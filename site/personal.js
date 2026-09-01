@@ -78,9 +78,9 @@ function renderPersonal(data) {
     ? personal.todos
         .map(
           (t) => `
-        <li class="${t.done ? "done" : ""}">
-          <span class="todo-check">${t.done ? "✓" : "○"}</span>
-          <span class="todo-text">${t.text}</span>
+        <li class="${t.done ? "done" : ""}${t.priority ? " priority" : ""}">
+          <span class="todo-check">${t.done ? "✓" : t.priority ? "!" : "○"}</span>
+          <span class="todo-text">${t.priority ? `<strong>${t.text}</strong>` : t.text}</span>
         </li>`
         )
         .join("")

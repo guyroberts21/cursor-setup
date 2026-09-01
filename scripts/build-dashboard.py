@@ -166,7 +166,17 @@ def parse_todos(path: Path) -> list[dict]:
     for line in path.read_text(encoding="utf-8").splitlines():
         match = re.match(r"^\s*-\s*\[( |x|X)\]\s+(.+)$", line)
         if match:
-            todos.append({"text": match.group(2).strip(), "done": match.group(1).lower() == "x"})
+            text = match.group(2).strip()
+            priority = text.startswith("! ")
+            if priority:
+                text = text[2:].strip()
+            todos.append(
+                {
+                    "text": text,
+                    "done": match.group(1).lower() == "x",
+                    "priority": priority,
+                }
+            )
     return todos
 
 
