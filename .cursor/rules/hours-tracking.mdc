@@ -1,0 +1,53 @@
+---
+description: Track weekly hours and MindfulOps targets via chat
+globs:
+  - data/**
+  - config/**
+  - scripts/**
+alwaysApply: false
+---
+
+# Hours tracking workflow
+
+When Guy mentions hours worked or weekly planning, update the data files in this repo.
+
+## Log hours
+
+Phrases like "2h on Jamyang", "spent 1.5 hours on EdMa", "log 3 hours fpmt":
+
+1. Parse project from `config/projects.yaml` or current week file (`data/weeks/*.yaml`)
+2. Append to `data/hours-log.yaml`:
+
+```yaml
+- date: YYYY-MM-DD  # today unless specified
+  project_id: jamyang
+  hours: 2
+  note: "optional context"
+```
+
+3. Run `python3 scripts/build-dashboard.py`
+4. Reply with updated totals: logged / target / remaining per project and overall
+
+## Weekly plan
+
+When Guy pastes a MindfulOps weekly row or shares project hour targets:
+
+1. Create or update `data/weeks/YYYY-Www.yaml` (ISO week)
+2. Map project names to ids: edma, fpmt, jamyang, rigpa, fdcw, tushita, yeshin
+3. Run `python3 scripts/build-dashboard.py`
+
+## Priorities refresh
+
+When asked for current priorities or before a daily briefing:
+
+1. Run `python3 scripts/sync-github.py`
+2. Run `python3 scripts/build-dashboard.py`
+3. Summarize top priorities (Action needed + P1/P2, oldest updated first)
+
+## Project id aliases
+
+- edma → EdMa
+- fpmt → FPMT
+- jamyang → Jamyang
+- rigpa → Rigpa
+- fdcw → FDCW

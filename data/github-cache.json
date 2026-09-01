@@ -1,0 +1,387 @@
+{
+  "synced_at": "2026-09-01T15:57:59.743794+00:00",
+  "project_scope": false,
+  "priorities": [
+    {
+      "number": 2,
+      "title": "Check products - add with or without tax to prices",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/2",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:09:17Z",
+      "status": null
+    },
+    {
+      "number": 4,
+      "title": "Checkout - Bookstores",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/4",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:09:33Z",
+      "status": null
+    },
+    {
+      "number": 87,
+      "title": "Fix bug dropdown on mobile explore menu",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/87",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T06:23:37Z",
+      "status": null
+    },
+    {
+      "number": 103,
+      "title": "Plugins to Research for replacement",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/103",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:FPMT"
+      ],
+      "client": "FPMT",
+      "updated_at": "2026-08-28T06:25:34Z",
+      "status": null
+    },
+    {
+      "number": 184,
+      "title": "Check DB student payment records - Emre Erezel & Maeva",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/184",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:35:47Z",
+      "status": null
+    },
+    {
+      "number": 186,
+      "title": "Make clear how to login to Moodle",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/186",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:36:04Z",
+      "status": null
+    },
+    {
+      "number": 206,
+      "title": "Moodle Update",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/206",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:38:36Z",
+      "status": null
+    },
+    {
+      "number": 208,
+      "title": "Fix critical error on jamyang.co.uk/jamyang-skus.php",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/208",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:38:53Z",
+      "status": null
+    },
+    {
+      "number": 10,
+      "title": "Fix circular photo display for event page teachers",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/10",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Mani",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-31T11:30:51Z",
+      "status": null
+    }
+  ],
+  "all_assigned": [
+    {
+      "number": 2,
+      "title": "Check products - add with or without tax to prices",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/2",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:09:17Z",
+      "status": null
+    },
+    {
+      "number": 4,
+      "title": "Checkout - Bookstores",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/4",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:09:33Z",
+      "status": null
+    },
+    {
+      "number": 12,
+      "title": "Test MindfulSEO on site",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/12",
+      "labels": [
+        "P2",
+        "people:Pep",
+        "people:Guy",
+        "client:EdMa",
+        "product:MindfulSEO"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:10:32Z",
+      "status": null
+    },
+    {
+      "number": 13,
+      "title": "2 - Bookstore Ordering Area",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/13",
+      "labels": [
+        "P2",
+        "people:Pep",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-28T06:10:54Z",
+      "status": null
+    },
+    {
+      "number": 86,
+      "title": "FDCW - New Shop changes",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/86",
+      "labels": [
+        "P2",
+        "people:Pep",
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T06:23:29Z",
+      "status": null
+    },
+    {
+      "number": 87,
+      "title": "Fix bug dropdown on mobile explore menu",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/87",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T06:23:37Z",
+      "status": null
+    },
+    {
+      "number": 103,
+      "title": "Plugins to Research for replacement",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/103",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:FPMT"
+      ],
+      "client": "FPMT",
+      "updated_at": "2026-08-28T06:25:34Z",
+      "status": null
+    },
+    {
+      "number": 184,
+      "title": "Check DB student payment records - Emre Erezel & Maeva",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/184",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:35:47Z",
+      "status": null
+    },
+    {
+      "number": 186,
+      "title": "Make clear how to login to Moodle",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/186",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:36:04Z",
+      "status": null
+    },
+    {
+      "number": 196,
+      "title": "Hide Quantity from Cart page for no-quantity events",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/196",
+      "labels": [
+        "P3",
+        "Action needed",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:37:14Z",
+      "status": null
+    },
+    {
+      "number": 206,
+      "title": "Moodle Update",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/206",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Pep",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:38:36Z",
+      "status": null
+    },
+    {
+      "number": 208,
+      "title": "Fix critical error on jamyang.co.uk/jamyang-skus.php",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/208",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:38:53Z",
+      "status": null
+    },
+    {
+      "number": 211,
+      "title": "JamyangManager role - add Tickets \"Attendes\"capability",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/211",
+      "labels": [
+        "P2",
+        "people:Guy",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:39:18Z",
+      "status": null
+    },
+    {
+      "number": 259,
+      "title": "2 - MindfulSEO",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/259",
+      "labels": [
+        "people:Guy",
+        "product:MindfulSEO",
+        "client:Jamyang"
+      ],
+      "client": "Jamyang",
+      "updated_at": "2026-08-28T06:46:30Z",
+      "status": null
+    },
+    {
+      "number": 96,
+      "title": "Clean up broken links",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/96",
+      "labels": [
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T14:00:18Z",
+      "status": null
+    },
+    {
+      "number": 97,
+      "title": "Add Register Event Form to Event Page",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/97",
+      "labels": [
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T14:00:24Z",
+      "status": null
+    },
+    {
+      "number": 456,
+      "title": "Explore translating website",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/456",
+      "labels": [
+        "people:Guy",
+        "client:FDCW"
+      ],
+      "client": "FDCW",
+      "updated_at": "2026-08-28T14:00:30Z",
+      "status": null
+    },
+    {
+      "number": 10,
+      "title": "Fix circular photo display for event page teachers",
+      "url": "https://github.com/MindfulDesign-me/MindfulSupport/issues/10",
+      "labels": [
+        "P2",
+        "Action needed",
+        "people:Mani",
+        "people:Guy",
+        "client:EdMa"
+      ],
+      "client": "EdMa",
+      "updated_at": "2026-08-31T11:30:51Z",
+      "status": null
+    }
+  ]
+}

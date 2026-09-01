@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guy — Weekly Workflow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div>
+      <p class="eyebrow">Mindful Design</p>
+      <h1>Weekly Workflow</h1>
+    </div>
+    <div class="header-meta" id="week-meta">Loading…</div>
+  </header>
+
+  <main class="grid">
+    <section class="card summary-card">
+      <h2>Hours this week</h2>
+      <div class="totals" id="totals"></div>
+      <div class="projects" id="projects"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Today&apos;s focus</h2>
+        <span class="badge" id="priority-count"></span>
+      </div>
+      <ul class="ticket-list" id="priorities"></ul>
+      <button type="button" class="link-btn" id="toggle-all" hidden>Show all assigned</button>
+      <ul class="ticket-list all-list" id="all-assigned" hidden></ul>
+    </section>
+
+    <section class="card">
+      <h2>Recent log</h2>
+      <ul class="log-list" id="recent-log"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="sync-meta"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

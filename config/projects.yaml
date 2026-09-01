@@ -1,0 +1,23 @@
+# MindfulOps project name → GitHub client label mapping
+projects:
+  edma:
+    name: EdMa Website Support
+    github_clients: [EdMa]
+  fpmt:
+    name: FPMT Website Maintenance
+    github_clients: [FPMT]
+  jamyang:
+    name: Jamyang Digital Ops
+    github_clients: [Jamyang, SWL, CCC]
+  rigpa:
+    name: Rigpa Web Support
+    github_clients: [Rigpa]
+  fdcw:
+    name: FDCW Communications
+    github_clients: [FDCW]
+  tushita:
+    name: Tushita Website Support
+    github_clients: [Tushita]
+  yeshin:
+    name: Yeshin Website Support
+    github_clients: [Yeshin]

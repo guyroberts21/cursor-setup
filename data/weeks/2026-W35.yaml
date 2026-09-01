@@ -1,0 +1,20 @@
+week_start: 2026-08-31
+week_end: 2026-09-06
+projects:
+  - id: edma
+    name: EdMa Website Support
+    target_hours: 2
+    github_clients: [EdMa]
+  - id: fpmt
+    name: FPMT Website Maintenance
+    target_hours: 3
+    github_clients: [FPMT]
+  - id: jamyang
+    name: Jamyang Digital Ops
+    target_hours: 3
+    github_clients: [Jamyang]
+  - id: rigpa
+    name: Rigpa Web Support
+    target_hours: 2
+    github_clients: [Rigpa]
+total_target: 10
