@@ -335,8 +335,17 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   width: 1rem;
 }
 
-.todo-list li.done .todo-check {
-  color: var(--ok);
+.todo-list li.priority .todo-check {
+  color: var(--warn);
+  font-weight: 700;
+}
+
+.todo-list li.priority .todo-text {
+  color: var(--warn);
+}
+
+.todo-list li.priority .todo-text strong {
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -345,6 +354,7 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   .summary-card { grid-row: auto; }
   .header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
+
 
 
 
