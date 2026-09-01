@@ -26,6 +26,7 @@ HOURS_PATH = ROOT / "data" / "hours-log.yaml"
 CACHE_PATH = ROOT / "data" / "github-cache.json"
 NOTES_PATH = ROOT / "data" / "notes.md"
 TODOS_PATH = ROOT / "data" / "todos.md"
+PROJECTS_PATH = ROOT / "config" / "projects.yaml"
 OUT_PATH = ROOT / "site" / "data.json"
 
 
@@ -52,14 +53,23 @@ def find_current_week(today: date) -> Path | None:
     return None
 
 
-def hours_in_week(entries: list[dict], week_start: date, week_end: date) -> dict[str, float]:
+def hours_in_week(
+    entries: list[dict], week_start: date, week_end: date, *, extra: bool | None = None
+) -> dict[str, float]:
     totals: dict[str, float] = {}
     for entry in entries:
+        if extra is not None and bool(entry.get("extra")) != extra:
+            continue
         entry_date = date.fromisoformat(str(entry["date"]))
         if week_start <= entry_date <= week_end:
             pid = entry["project_id"]
             totals[pid] = totals.get(pid, 0.0) + float(entry["hours"])
     return totals
+
+
+def project_names() -> dict[str, str]:
+    config = load_yaml(PROJECTS_PATH)
+    return {pid: data["name"] for pid, data in config.get("projects", {}).items()}
 
 
 def work_days_remaining(week_end: date, today: date) -> int:
@@ -100,8 +110,20 @@ def build_project_summary(week: dict, logged: dict[str, float]) -> list[dict]:
     return projects
 
 
-def recent_entries(entries: list[dict], limit: int = 14) -> list[dict]:
-    sorted_entries = sorted(entries, key=lambda e: (e["date"], e.get("note", "")), reverse=True)
+def recent_entries(entries: list[dict], names: dict[str, str], limit: int = 14) -> list[dict]:
+    enriched = []
+    for entry in entries:
+        entry_date = entry["date"]
+        if not isinstance(entry_date, str):
+            entry_date = entry_date.isoformat()
+        enriched.append(
+            {
+                **entry,
+                "date": entry_date,
+                "project_name": names.get(entry["project_id"], entry["project_id"]),
+            }
+        )
+    sorted_entries = sorted(enriched, key=lambda e: (e["date"], e.get("note", "")), reverse=True)
     return sorted_entries[:limit]
 
 
@@ -146,7 +168,9 @@ def main() -> None:
 
     hours_data = load_yaml(HOURS_PATH)
     entries = hours_data.get("entries", [])
-    logged = hours_in_week(entries, week_start, week_end)
+    names = project_names()
+    logged = hours_in_week(entries, week_start, week_end, extra=False)
+    extra_logged = hours_in_week(entries, week_start, week_end, extra=True)
 
     cache = {}
     if CACHE_PATH.exists():
@@ -172,6 +196,11 @@ def main() -> None:
             "total_target": total_target,
             "total_logged": total_logged,
             "total_remaining": max(0.0, total_target - total_logged),
+            "extra_logged": sum(extra_logged.values()),
+            "extra_breakdown": [
+                {"id": pid, "name": names.get(pid, pid), "logged_hours": hours}
+                for pid, hours in sorted(extra_logged.items())
+            ],
             "projects": projects,
         },
         "priorities": priorities[:8],
@@ -180,7 +209,7 @@ def main() -> None:
             {**item, "days_since_update": days_since(item["updated_at"])}
             for item in cache.get("all_assigned", [])
         ],
-        "recent_log": recent_entries(entries),
+        "recent_log": recent_entries(entries, names),
         "github_synced_at": cache.get("synced_at"),
         "personal": load_personal(),
     }

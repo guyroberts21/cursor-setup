@@ -1,1 +1,6 @@
-entries: []
+entries:
+  - date: 2026-08-31
+    project_id: mindful-design
+    hours: 1.5
+    note: Meetings
+    extra: true

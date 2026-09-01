@@ -23,10 +23,14 @@ function renderWeek(data) {
 
 function renderTotals(data) {
   const { hours } = data;
+  const extra = hours.extra_logged
+    ? `<div><div class="stat-value">${hours.extra_logged}h</div><div class="stat-label">Extra</div></div>`
+    : "";
   document.getElementById("totals").innerHTML = `
     <div><div class="stat-value">${hours.total_logged}h</div><div class="stat-label">Logged</div></div>
     <div><div class="stat-value">${hours.total_remaining}h</div><div class="stat-label">Remaining</div></div>
     <div><div class="stat-value">${hours.total_target}h</div><div class="stat-label">Target</div></div>
+    ${extra}
   `;
 }
 
@@ -102,13 +106,14 @@ function renderLog(data) {
     return;
   }
   el.innerHTML = data.recent_log
-    .map(
-      (e) => `
+    .map((e) => {
+      const extra = e.extra ? ' <span class="tag">extra</span>' : "";
+      return `
       <li>
-        <span>${e.project_id}: ${e.hours}h${e.note ? ` — ${e.note}` : ""}</span>
+        <span>${e.project_name}: ${e.hours}h${e.note ? ` — ${e.note}` : ""}${extra}</span>
         <span class="log-date">${fmtDate(e.date)}</span>
-      </li>`
-    )
+      </li>`;
+    })
     .join("");
 }
 

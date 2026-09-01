@@ -23,6 +23,7 @@ Phrases like "2h on Jamyang", "spent 1.5 hours on EdMa", "log 3 hours fpmt":
   project_id: jamyang
   hours: 2
   note: "optional context"
+  extra: false  # set true for hours outside weekly targets (e.g. meetings)
 ```
 
 3. Run `python3 scripts/build-dashboard.py`
@@ -64,3 +65,4 @@ Changes deploy to the site on push to main (GitHub Pages rebuilds automatically)
 - jamyang → Jamyang
 - rigpa → Rigpa
 - fdcw → FDCW
+- mindful-design → Mindful Design (use with `extra: true` for non-target hours)
