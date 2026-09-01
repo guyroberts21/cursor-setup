@@ -108,9 +108,13 @@ function renderLog(data) {
   el.innerHTML = data.recent_log
     .map((e) => {
       const extra = e.extra ? ' <span class="tag">extra</span>' : "";
+      const times = e.time_label ? `<div class="log-times">${e.time_label}</div>` : "";
       return `
       <li>
-        <span>${e.project_name}: ${e.hours}h${e.note ? ` — ${e.note}` : ""}${extra}</span>
+        <div>
+          <span>${e.project_name}: ${e.hours}h${e.note ? ` — ${e.note}` : ""}${extra}</span>
+          ${times}
+        </div>
         <span class="log-date">${fmtDate(e.date)}</span>
       </li>`;
     })

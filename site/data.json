@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:17:47.070115+01:00",
+  "generated_at": "2026-09-01T17:21:53.276932+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -463,7 +463,18 @@
       "hours": 1.5,
       "note": "Meetings",
       "extra": true,
-      "project_name": "Mindful Design"
+      "slots": [
+        {
+          "start": "10:00",
+          "end": "10:45"
+        },
+        {
+          "start": "11:45",
+          "end": "12:30"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "10:00\u201310:45, 11:45\u201312:30"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",

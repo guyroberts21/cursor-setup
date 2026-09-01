@@ -4,3 +4,8 @@ entries:
     hours: 1.5
     note: Meetings
     extra: true
+    slots:
+      - start: "10:00"
+        end: "10:45"
+      - start: "11:45"
+        end: "12:30"

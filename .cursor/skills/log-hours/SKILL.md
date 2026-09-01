@@ -19,7 +19,12 @@ Use when Guy wants to log hours, set the weekly plan, or refresh priorities.
 
 1. Read current week from `data/weeks/` (file where today falls between week_start and week_end)
 2. Match project mention to a `project_id` in that week file
-3. Append entry with today's date (or user-specified date)
+3. Append entry with today's date (or user-specified date). Include `slots` when Guy gives times:
+   ```yaml
+   slots:
+     - start: "10:00"
+       end: "10:45"
+   ```
 4. Run:
    ```bash
    python3 scripts/build-dashboard.py

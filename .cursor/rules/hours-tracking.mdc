@@ -24,6 +24,11 @@ Phrases like "2h on Jamyang", "spent 1.5 hours on EdMa", "log 3 hours fpmt":
   hours: 2
   note: "optional context"
   extra: false  # set true for hours outside weekly targets (e.g. meetings)
+  slots:  # optional — time of day work happened
+    - start: "10:00"
+      end: "12:30"
+    - start: "14:00"
+      end: "15:00"
 ```
 
 3. Run `python3 scripts/build-dashboard.py`

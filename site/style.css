@@ -184,6 +184,13 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   padding: 0.5rem 0;
   border-top: 1px solid var(--border);
   font-size: 0.85rem;
+  align-items: flex-start;
+}
+
+.log-times {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-top: 0.2rem;
 }
 
 .log-list li:first-child { border-top: none; }
@@ -282,4 +289,5 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   .summary-card { grid-row: auto; }
   .header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
+
 

@@ -72,6 +72,26 @@ def project_names() -> dict[str, str]:
     return {pid: data["name"] for pid, data in config.get("projects", {}).items()}
 
 
+def normalize_time(value: str | datetime) -> str:
+    if isinstance(value, datetime):
+        return value.strftime("%H:%M")
+    text = str(value).strip()
+    if len(text) >= 5 and text[2] == ":":
+        return text[:5]
+    return text
+
+
+def format_time_label(slots: list[dict] | None) -> str | None:
+    if not slots:
+        return None
+    parts = []
+    for slot in slots:
+        start = normalize_time(slot["start"])
+        end = normalize_time(slot["end"])
+        parts.append(f"{start}–{end}")
+    return ", ".join(parts)
+
+
 def work_days_remaining(week_end: date, today: date) -> int:
     """Mon–Sat work week: count remaining work days including today."""
     if today > week_end:
@@ -116,14 +136,25 @@ def recent_entries(entries: list[dict], names: dict[str, str], limit: int = 14) 
         entry_date = entry["date"]
         if not isinstance(entry_date, str):
             entry_date = entry_date.isoformat()
+        slots = entry.get("slots") or []
+        normalized_slots = [
+            {"start": normalize_time(s["start"]), "end": normalize_time(s["end"])} for s in slots
+        ]
         enriched.append(
             {
                 **entry,
                 "date": entry_date,
                 "project_name": names.get(entry["project_id"], entry["project_id"]),
+                "slots": normalized_slots,
+                "time_label": format_time_label(normalized_slots),
             }
         )
-    sorted_entries = sorted(enriched, key=lambda e: (e["date"], e.get("note", "")), reverse=True)
+
+    def sort_key(entry: dict) -> tuple:
+        first_start = entry["slots"][0]["start"] if entry.get("slots") else "99:99"
+        return (entry["date"], first_start, entry.get("note", ""))
+
+    sorted_entries = sorted(enriched, key=sort_key, reverse=True)
     return sorted_entries[:limit]
 
 
