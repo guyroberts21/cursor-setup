@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:21:53.276932+01:00",
+  "generated_at": "2026-09-01T20:44:35.784640+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -479,7 +479,7 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li>Focus on Jamyang critical fixes and EdMa checkout tasks</li>\n<li>Remember to log hours at end of each session</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<p>test note </p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li>Focus on Jamyang critical fixes and EdMa checkout tasks</li>\n<li>Remember to log hours at end of each session</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
@@ -504,7 +504,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-01T17:15:40.967242+01:00",
+    "updated_at": "2026-09-01T20:44:16.327830+01:00",
     "open_todos": 4
   }
 }
