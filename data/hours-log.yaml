@@ -9,3 +9,11 @@ entries:
         end: "10:45"
       - start: "11:45"
         end: "12:30"
+  - date: 2026-09-01
+    project_id: fpmt
+    hours: 1
+    note: ""
+    extra: false
+    slots:
+      - start: "17:00"
+        end: "18:00"

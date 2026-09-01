@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:44:35.784640+01:00",
+  "generated_at": "2026-09-01T22:01:07.512601+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 0.0,
-    "total_remaining": 10.0,
+    "total_logged": 1.0,
+    "total_remaining": 9.0,
     "extra_logged": 1.5,
     "extra_breakdown": [
       {
@@ -33,8 +33,8 @@
         "id": "fpmt",
         "name": "FPMT Website Maintenance",
         "target_hours": 3.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 3.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 2.0,
         "github_clients": [
           "FPMT"
         ]
@@ -458,6 +458,21 @@
   ],
   "recent_log": [
     {
+      "date": "2026-09-01",
+      "project_id": "fpmt",
+      "hours": 1,
+      "note": "",
+      "extra": false,
+      "slots": [
+        {
+          "start": "17:00",
+          "end": "18:00"
+        }
+      ],
+      "project_name": "FPMT Website Maintenance",
+      "time_label": "17:00\u201318:00"
+    },
+    {
       "date": "2026-08-31",
       "project_id": "mindful-design",
       "hours": 1.5,
@@ -483,6 +498,10 @@
     "notes_source": "data/notes.md",
     "todos": [
       {
+        "text": "Jamyang Manager role ticket (MD-211) \u2014 tomorrow morning before 10am meeting",
+        "done": false
+      },
+      {
         "text": "Fix critical error on jamyang-skus.php (MD-208)",
         "done": false
       },
@@ -496,7 +515,7 @@
       },
       {
         "text": "Log today's hours in Cursor",
-        "done": false
+        "done": true
       },
       {
         "text": "Set up weekly workflow dashboard",
@@ -504,7 +523,34 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-01T20:44:16.327830+01:00",
+    "updated_at": "2026-09-01T21:59:43.485461+01:00",
     "open_todos": 4
+  },
+  "reflection": {
+    "latest": {
+      "date": "2026-09-01",
+      "done_summary": [
+        "1h FPMT \u2014 17:00\u201318:00"
+      ],
+      "tomorrow_focus": [
+        "Jamyang Manager role ticket (MD-211) \u2014 morning priority",
+        "Meeting at 10:00 \u2014 ~1\u20131.5h focused work before then"
+      ],
+      "tomorrow_blocks": [
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "project_id": "jamyang",
+          "note": "Jamyang Manager role ticket (MD-211)",
+          "project_name": "Jamyang Digital Ops",
+          "time_label": "08:30\u201310:00"
+        }
+      ],
+      "notes": [
+        "Generally helps to schedule the exact hours I'll work each day"
+      ]
+    },
+    "shutdown_ritual_html": "<h1>End-of-day shutdown (~3 minutes)</h1>\n<ol>\n<li><strong>Log</strong> \u2014 Record today's hours and time slots (done for you if you told Cursor).</li>\n<li><strong>Pick one</strong> \u2014 Write tomorrow's first task only (not the whole backlog).</li>\n<li><strong>Schedule</strong> \u2014 Block exact hours you'll work tomorrow, around meetings.</li>\n<li><strong>Close</strong> \u2014 Quit Cursor, close work tabs, step away from the desk.</li>\n<li><strong>Release</strong> \u2014 Say: <em>\"Work is parked until tomorrow.\"</em></li>\n</ol>\n<p>The handoff is the point \u2014 so your brain can stop rehearsing tickets overnight.</p>",
+    "source": "data/reflections.yaml"
   }
 }

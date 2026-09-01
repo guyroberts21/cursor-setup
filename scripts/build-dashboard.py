@@ -26,6 +26,8 @@ HOURS_PATH = ROOT / "data" / "hours-log.yaml"
 CACHE_PATH = ROOT / "data" / "github-cache.json"
 NOTES_PATH = ROOT / "data" / "notes.md"
 TODOS_PATH = ROOT / "data" / "todos.md"
+REFLECTIONS_PATH = ROOT / "data" / "reflections.yaml"
+RITUAL_PATH = ROOT / "data" / "shutdown-ritual.md"
 PROJECTS_PATH = ROOT / "config" / "projects.yaml"
 OUT_PATH = ROOT / "site" / "data.json"
 
@@ -93,13 +95,12 @@ def format_time_label(slots: list[dict] | None) -> str | None:
 
 
 def work_days_remaining(week_end: date, today: date) -> int:
-    """Mon–Sat work week: count remaining work days including today."""
     if today > week_end:
         return 0
     count = 0
     d = today
     while d <= week_end:
-        if d.weekday() < 6:  # Mon=0 … Sat=5
+        if d.weekday() < 6:
             count += 1
         d += timedelta(days=1)
     return count
@@ -186,6 +187,48 @@ def load_personal() -> dict:
     }
 
 
+def load_reflection(names: dict[str, str]) -> dict:
+    ritual_raw = RITUAL_PATH.read_text(encoding="utf-8") if RITUAL_PATH.exists() else ""
+    ritual_html = markdown.markdown(ritual_raw, extensions=["extra"]) if ritual_raw.strip() else ""
+
+    data = load_yaml(REFLECTIONS_PATH)
+    reflections = data.get("reflections", [])
+    if not reflections:
+        return {"latest": None, "shutdown_ritual_html": ritual_html}
+
+    def reflection_date(item: dict) -> str:
+        d = item["date"]
+        return d.isoformat() if hasattr(d, "isoformat") else str(d)
+
+    latest = max(reflections, key=reflection_date)
+    date_str = reflection_date(latest)
+
+    blocks = []
+    for block in latest.get("tomorrow_blocks", []):
+        pid = block.get("project_id", "")
+        blocks.append(
+            {
+                **block,
+                "start": normalize_time(block["start"]),
+                "end": normalize_time(block["end"]),
+                "project_name": names.get(pid, pid) if pid else None,
+                "time_label": f"{normalize_time(block['start'])}–{normalize_time(block['end'])}",
+            }
+        )
+
+    return {
+        "latest": {
+            "date": date_str,
+            "done_summary": latest.get("done_summary", []),
+            "tomorrow_focus": latest.get("tomorrow_focus", []),
+            "tomorrow_blocks": blocks,
+            "notes": latest.get("notes", []),
+        },
+        "shutdown_ritual_html": ritual_html,
+        "source": "data/reflections.yaml",
+    }
+
+
 def main() -> None:
     today = date.today()
     week_path = find_current_week(today)
@@ -243,6 +286,7 @@ def main() -> None:
         "recent_log": recent_entries(entries, names),
         "github_synced_at": cache.get("synced_at"),
         "personal": load_personal(),
+        "reflection": load_reflection(names),
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)

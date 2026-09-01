@@ -218,6 +218,62 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
 
 .personal-grid {
   grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 1rem;
+  gap: 1rem;
+}
+
+.reflection-card {
+  max-width: 1200px;
+  margin: 0 auto 1rem;
+  padding: 1.25rem 2rem;
+}
+
+.reflection-body {
+  margin-bottom: 1.5rem;
+}
+
+.reflection-block {
+  margin-bottom: 1.25rem;
+}
+
+.reflection-block h4 {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.reflection-list {
+  margin-left: 1.25rem;
+  color: var(--text);
+}
+
+.reflection-list li {
+  margin-bottom: 0.35rem;
+}
+
+.subsection-title {
+  font-size: 0.95rem;
+  margin: 1.5rem 0 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.ritual-body ol {
+  margin-left: 1.25rem;
+  color: var(--muted);
+}
+
+.ritual-body li {
+  margin-bottom: 0.5rem;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .source-hint {
@@ -289,5 +345,6 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   .summary-card { grid-row: auto; }
   .header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
+
 
 

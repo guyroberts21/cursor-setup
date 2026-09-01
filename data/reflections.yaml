@@ -1,0 +1,14 @@
+reflections:
+  - date: 2026-09-01
+    done_summary:
+      - "1h FPMT — 17:00–18:00"
+    tomorrow_focus:
+      - "Jamyang Manager role ticket (MD-211) — morning priority"
+      - "Meeting at 10:00 — ~1–1.5h focused work before then"
+    tomorrow_blocks:
+      - start: "08:30"
+        end: "10:00"
+        project_id: jamyang
+        note: Jamyang Manager role ticket (MD-211)
+    notes:
+      - "Generally helps to schedule the exact hours I'll work each day"

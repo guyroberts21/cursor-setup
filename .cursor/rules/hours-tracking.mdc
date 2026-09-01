@@ -63,6 +63,28 @@ When Guy asks to add a note or todo, update the markdown file then run `python3 
 
 Changes deploy to the site on push to main (GitHub Pages rebuilds automatically).
 
+## Daily reflection (end of day)
+
+Add or update today's entry in `data/reflections.yaml`:
+
+```yaml
+reflections:
+  - date: YYYY-MM-DD
+    done_summary:
+      - "1h FPMT — 17:00–18:00"
+    tomorrow_focus:
+      - "First task for tomorrow"
+    tomorrow_blocks:
+      - start: "08:30"
+        end: "10:00"
+        project_id: jamyang
+        note: What you'll work on
+    notes:
+      - "Any personal workflow notes"
+```
+
+Shutdown ritual steps live in `data/shutdown-ritual.md`. Run `build-dashboard.py` after updating.
+
 ## Project id aliases
 
 - edma → EdMa
