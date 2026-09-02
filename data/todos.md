@@ -1,4 +1,5 @@
 # Personal todo
 
+- [ ] ! Redownload EdMa site — get latest search bar plugin before any further EdMa changes (priority)
 - [ ] ! Mention to Pep about upcoming holiday
-- [ ] Jamyang Manager role ticket (MD-211) — tomorrow morning before 10am meeting
+- [ ] Jamyang Manager role ticket (MD-211)

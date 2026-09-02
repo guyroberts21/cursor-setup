@@ -24,7 +24,11 @@ entries:
     extra: false
   - date: 2026-09-02
     project_id: mindful-design
-    hours: 0.5
+    hours: 0.75
     note: Meeting
     extra: true
+    slots:
+      - start: "09:00"
+        end: "09:45"
+
 

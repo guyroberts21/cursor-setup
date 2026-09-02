@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:51:38.710710+01:00",
+  "generated_at": "2026-09-02T10:42:56.904257+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -10,12 +10,12 @@
     "total_target": 10.0,
     "total_logged": 1.5,
     "total_remaining": 8.5,
-    "extra_logged": 2.0,
+    "extra_logged": 2.25,
     "extra_breakdown": [
       {
         "id": "mindful-design",
         "name": "Mindful Design",
-        "logged_hours": 2.0
+        "logged_hours": 2.25
       }
     ],
     "projects": [
@@ -459,16 +459,6 @@
   "recent_log": [
     {
       "date": "2026-09-02",
-      "project_id": "mindful-design",
-      "hours": 0.5,
-      "note": "Meeting",
-      "extra": true,
-      "project_name": "Mindful Design",
-      "slots": [],
-      "time_label": null
-    },
-    {
-      "date": "2026-09-02",
       "project_id": "jamyang",
       "hours": 0.5,
       "note": "Jamyang Manager role (MD-211)",
@@ -476,6 +466,21 @@
       "project_name": "Jamyang Digital Ops",
       "slots": [],
       "time_label": null
+    },
+    {
+      "date": "2026-09-02",
+      "project_id": "mindful-design",
+      "hours": 0.75,
+      "note": "Meeting",
+      "extra": true,
+      "slots": [
+        {
+          "start": "09:00",
+          "end": "09:45"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "09:00\u201309:45"
     },
     {
       "date": "2026-09-01",
@@ -514,23 +519,28 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li>Focus on Jamyang critical fixes and EdMa checkout tasks</li>\n<li>Remember to log hours at end of each session</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
+      {
+        "text": "Redownload EdMa site \u2014 get latest search bar plugin before any further EdMa changes (priority)",
+        "done": false,
+        "priority": true
+      },
       {
         "text": "Mention to Pep about upcoming holiday",
         "done": false,
         "priority": true
       },
       {
-        "text": "Jamyang Manager role ticket (MD-211) \u2014 tomorrow morning before 10am meeting",
+        "text": "Jamyang Manager role ticket (MD-211)",
         "done": false,
         "priority": false
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-01T22:02:03.914591+01:00",
-    "open_todos": 2
+    "updated_at": "2026-09-02T09:48:10.783188+01:00",
+    "open_todos": 3
   },
   "reflection": {
     "latest": {
