@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:42:56.904257+01:00",
+  "generated_at": "2026-09-02T17:00:10.775996+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 1.5,
-    "total_remaining": 8.5,
+    "total_logged": 3.0,
+    "total_remaining": 7.0,
     "extra_logged": 2.25,
     "extra_breakdown": [
       {
@@ -23,8 +23,8 @@
         "id": "edma",
         "name": "EdMa Website Support",
         "target_hours": 2.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 2.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 1.0,
         "github_clients": [
           "EdMa"
         ]
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 3.0,
-        "logged_hours": 0.5,
-        "remaining_hours": 2.5,
+        "logged_hours": 1.0,
+        "remaining_hours": 2.0,
         "github_clients": [
           "Jamyang"
         ]
@@ -411,7 +411,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 97,
@@ -424,7 +424,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 456,
@@ -437,7 +437,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 10,
@@ -453,7 +453,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 1
+      "days_since_update": 2
     }
   ],
   "recent_log": [
@@ -466,6 +466,36 @@
       "project_name": "Jamyang Digital Ops",
       "slots": [],
       "time_label": null
+    },
+    {
+      "date": "2026-09-02",
+      "project_id": "jamyang",
+      "hours": 0.5,
+      "note": "Jamyang Manager role (MD-211)",
+      "extra": false,
+      "slots": [
+        {
+          "start": "15:30",
+          "end": "16:00"
+        }
+      ],
+      "project_name": "Jamyang Digital Ops",
+      "time_label": "15:30\u201316:00"
+    },
+    {
+      "date": "2026-09-02",
+      "project_id": "edma",
+      "hours": 1,
+      "note": "DNG review; set up local repo for search bar / mobile view updates",
+      "extra": false,
+      "slots": [
+        {
+          "start": "14:30",
+          "end": "15:30"
+        }
+      ],
+      "project_name": "EdMa Website Support",
+      "time_label": "14:30\u201315:30"
     },
     {
       "date": "2026-09-02",
