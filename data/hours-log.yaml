@@ -17,3 +17,14 @@ entries:
     slots:
       - start: "17:00"
         end: "18:00"
+  - date: 2026-09-02
+    project_id: jamyang
+    hours: 0.5
+    note: Jamyang Manager role (MD-211)
+    extra: false
+  - date: 2026-09-02
+    project_id: mindful-design
+    hours: 0.5
+    note: Meeting
+    extra: true
+

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-01T22:03:35.348972+01:00",
+  "generated_at": "2026-09-02T08:51:38.710710+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
     "end": "2026-09-06",
-    "work_days_remaining": 5
+    "work_days_remaining": 4
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 1.0,
-    "total_remaining": 9.0,
-    "extra_logged": 1.5,
+    "total_logged": 1.5,
+    "total_remaining": 8.5,
+    "extra_logged": 2.0,
     "extra_breakdown": [
       {
         "id": "mindful-design",
         "name": "Mindful Design",
-        "logged_hours": 1.5
+        "logged_hours": 2.0
       }
     ],
     "projects": [
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 3.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 3.0,
+        "logged_hours": 0.5,
+        "remaining_hours": 2.5,
         "github_clients": [
           "Jamyang"
         ]
@@ -75,7 +75,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 4,
@@ -90,7 +90,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 87,
@@ -106,7 +106,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 103,
@@ -121,7 +121,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 184,
@@ -137,7 +137,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 186,
@@ -152,7 +152,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 206,
@@ -168,7 +168,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 208,
@@ -183,7 +183,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     }
   ],
   "all_assigned_count": 18,
@@ -201,7 +201,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 4,
@@ -216,7 +216,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 12,
@@ -232,7 +232,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 13,
@@ -247,7 +247,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 86,
@@ -262,7 +262,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 87,
@@ -278,7 +278,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 103,
@@ -293,7 +293,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 184,
@@ -309,7 +309,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 186,
@@ -324,7 +324,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 196,
@@ -339,7 +339,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 206,
@@ -355,7 +355,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 208,
@@ -370,7 +370,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 211,
@@ -384,7 +384,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 259,
@@ -398,7 +398,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 4
+      "days_since_update": 5
     },
     {
       "number": 96,
@@ -457,6 +457,26 @@
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-02",
+      "project_id": "mindful-design",
+      "hours": 0.5,
+      "note": "Meeting",
+      "extra": true,
+      "project_name": "Mindful Design",
+      "slots": [],
+      "time_label": null
+    },
+    {
+      "date": "2026-09-02",
+      "project_id": "jamyang",
+      "hours": 0.5,
+      "note": "Jamyang Manager role (MD-211)",
+      "extra": false,
+      "project_name": "Jamyang Digital Ops",
+      "slots": [],
+      "time_label": null
+    },
     {
       "date": "2026-09-01",
       "project_id": "fpmt",
