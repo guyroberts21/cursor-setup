@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-02T18:00:27.657222+01:00",
+  "generated_at": "2026-09-03T15:04:14.275388+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
     "end": "2026-09-06",
-    "work_days_remaining": 4
+    "work_days_remaining": 3
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 3.0,
-    "total_remaining": 7.0,
+    "total_logged": 5.0,
+    "total_remaining": 5.0,
     "extra_logged": 2.25,
     "extra_breakdown": [
       {
@@ -23,8 +23,8 @@
         "id": "edma",
         "name": "EdMa Website Support",
         "target_hours": 2.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 2.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "EdMa"
         ]
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 3.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 2.0,
+        "logged_hours": 2.0,
+        "remaining_hours": 1.0,
         "github_clients": [
           "Jamyang"
         ]
@@ -75,7 +75,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 4,
@@ -90,7 +90,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 87,
@@ -106,7 +106,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 103,
@@ -121,7 +121,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 184,
@@ -137,7 +137,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 186,
@@ -152,7 +152,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 206,
@@ -168,7 +168,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 208,
@@ -183,7 +183,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     }
   ],
   "all_assigned_count": 18,
@@ -201,7 +201,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 4,
@@ -216,7 +216,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 12,
@@ -232,7 +232,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 13,
@@ -247,7 +247,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 86,
@@ -262,7 +262,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 87,
@@ -278,7 +278,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 103,
@@ -293,7 +293,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 184,
@@ -309,7 +309,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 186,
@@ -324,7 +324,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 196,
@@ -339,7 +339,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 206,
@@ -355,7 +355,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 208,
@@ -370,7 +370,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 211,
@@ -384,7 +384,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 259,
@@ -398,7 +398,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 96,
@@ -411,7 +411,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 97,
@@ -424,7 +424,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 456,
@@ -437,7 +437,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 5
+      "days_since_update": 6
     },
     {
       "number": 10,
@@ -453,10 +453,40 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 2
+      "days_since_update": 3
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-03",
+      "project_id": "edma",
+      "hours": 1,
+      "note": "Circular photo ticket",
+      "extra": false,
+      "slots": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        }
+      ],
+      "project_name": "EdMa Website Support",
+      "time_label": "11:00\u201312:00"
+    },
+    {
+      "date": "2026-09-03",
+      "project_id": "jamyang",
+      "hours": 1,
+      "note": "Jamyang Manager role (MD-211)",
+      "extra": false,
+      "slots": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        }
+      ],
+      "project_name": "Jamyang Digital Ops",
+      "time_label": "10:00\u201311:00"
+    },
     {
       "date": "2026-09-02",
       "project_id": "jamyang",
@@ -549,7 +579,7 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Today (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
@@ -569,7 +599,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-02T09:48:10.783188+01:00",
+    "updated_at": "2026-09-03T15:04:13.625507+01:00",
     "open_todos": 3
   },
   "reflection": {
