@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:04:14.275388+01:00",
+  "generated_at": "2026-09-03T21:45:30.586489+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -579,16 +579,41 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Today (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Today (Fri 4 Sep)</h2>\n<h3>Morning to-do</h3>\n<ol>\n<li><strong>Message Pep</strong> \u2014 upcoming holiday</li>\n<li><strong>Draft EdMa email for Pep</strong> \u2014 sticky circular images (draft only, don\u2019t send)</li>\n<li><strong>Live site</strong> \u2014 implement any of your tickets that are ready to go live</li>\n<li><strong>Assigned queue (not started)</strong> \u2014 1h Rigpa + 1h EdMa from those tickets; third ticket only if time</li>\n</ol>\n<h3>Notes</h3>\n<ul>\n<li>Don\u2019t sweat ticket specifics until morning \u2014 pull from your assigned column</li>\n<li>Live-ready work first, then the timed Rigpa / EdMa blocks</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
-        "text": "Redownload EdMa site \u2014 get latest search bar plugin before any further EdMa changes (priority)",
+        "text": "Message Pep \u2014 upcoming holiday",
         "done": false,
-        "priority": true
+        "priority": false
       },
       {
-        "text": "Mention to Pep about upcoming holiday",
+        "text": "Draft EdMa email for Pep \u2014 sticky circular images (don\u2019t send)",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "Live site \u2014 implement ready-to-go tickets",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "1h Rigpa \u2014 unstarted assigned ticket",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "1h EdMa \u2014 unstarted assigned ticket",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "Third unstarted assigned ticket \u2014 only if time",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "Redownload EdMa site \u2014 get latest search bar plugin before any further EdMa changes (priority)",
         "done": false,
         "priority": true
       },
@@ -599,8 +624,8 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-03T15:04:13.625507+01:00",
-    "open_todos": 3
+    "updated_at": "2026-09-03T21:45:14.007985+01:00",
+    "open_todos": 8
   },
   "reflection": {
     "latest": {
