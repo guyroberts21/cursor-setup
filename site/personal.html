@@ -4,12 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guy — Notes &amp; Reflection</title>
+  <script>
+    (() => {
+      const stored = localStorage.getItem("dashboard-theme");
+      const pref = stored === "light" || stored === "dark" ? stored : "system";
+      const resolved = pref === "system"
+        ? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+        : pref;
+      document.documentElement.setAttribute("data-theme", resolved);
+      document.documentElement.setAttribute("data-theme-pref", pref);
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="nav">
-    <a href="index.html">Dashboard</a>
-    <a href="personal.html" class="active">Notes &amp; Reflection</a>
+    <div class="nav-links">
+      <a href="index.html">Dashboard</a>
+      <a href="personal.html" class="active">Notes &amp; Reflection</a>
+    </div>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">System</button>
   </nav>
 
   <header class="header">
@@ -55,6 +69,7 @@
     <span id="sync-meta"></span>
   </footer>
 
+  <script src="theme.js"></script>
   <script src="personal.js"></script>
 </body>
 </html>
