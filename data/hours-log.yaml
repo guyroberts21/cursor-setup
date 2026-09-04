@@ -62,7 +62,13 @@ entries:
     slots:
       - start: "11:00"
         end: "12:00"
-
-
-
-
+  - date: 2026-09-04
+    project_id: rigpa
+    hours: 1.5
+    note: Sticky-in-month-view / event calendar — ready for dev site
+    extra: false
+  - date: 2026-09-04
+    project_id: jamyang
+    hours: 1
+    note: Live tickets implementation
+    extra: false

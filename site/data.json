@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:19:12.402368+01:00",
+  "generated_at": "2026-09-04T18:26:15.136010+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 5.0,
-    "total_remaining": 5.0,
+    "total_logged": 7.5,
+    "total_remaining": 2.5,
     "extra_logged": 2.25,
     "extra_breakdown": [
       {
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 3.0,
-        "logged_hours": 2.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 3.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "Jamyang"
         ]
@@ -53,8 +53,8 @@
         "id": "rigpa",
         "name": "Rigpa Web Support",
         "target_hours": 2.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 2.0,
+        "logged_hours": 1.5,
+        "remaining_hours": 0.5,
         "github_clients": [
           "Rigpa"
         ]
@@ -458,6 +458,26 @@
   ],
   "recent_log": [
     {
+      "date": "2026-09-04",
+      "project_id": "rigpa",
+      "hours": 1.5,
+      "note": "Sticky-in-month-view / event calendar \u2014 ready for dev site",
+      "extra": false,
+      "project_name": "Rigpa Web Support",
+      "slots": [],
+      "time_label": null
+    },
+    {
+      "date": "2026-09-04",
+      "project_id": "jamyang",
+      "hours": 1,
+      "note": "Live tickets implementation",
+      "extra": false,
+      "project_name": "Jamyang Digital Ops",
+      "slots": [],
+      "time_label": null
+    },
+    {
       "date": "2026-09-03",
       "project_id": "edma",
       "hours": 1,
@@ -579,31 +599,21 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Tomorrow (Sat 5 Sep):</strong> Rigpa sticky-in-month-view changes are ready \u2014 add them to the <strong>dev site</strong></li>\n<li><strong>Weekend focus (FPMT):</strong> Mindful SEO plugin improvements \u2014 1.5h Sat + 1.5h Sun</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n<li><strong>Still to log (Fri 4 Sep):</strong> Jamyang live tickets + Rigpa event calendar \u2014 confirm slots if you want these added</li>\n</ul>\n<h2>Weekend plan</h2>\n<h3>Saturday 6 Sep (1.5h \u2014 FPMT / Mindful SEO)</h3>\n<ol>\n<li><strong>First task:</strong> Continue Mindful SEO plugin improvements (WIP; Pep already briefed on some of these)</li>\n<li>Optional later: set up / open FPMT Local WP site if time</li>\n</ol>\n<h3>Sunday 7 Sep (1.5h \u2014 FPMT / Mindful SEO)</h3>\n<ul>\n<li>Continue Mindful SEO improvements (same FPMT bucket)</li>\n</ul>\n<h2>Friday 4 Sep (done / to confirm)</h2>\n<h3>Morning to-do (from earlier)</h3>\n<ol>\n<li>Message Pep \u2014 upcoming holiday</li>\n<li>Draft EdMa email for Pep \u2014 sticky circular images (draft only)</li>\n<li>Live site \u2014 implement ready tickets</li>\n<li>Assigned queue \u2014 Rigpa + EdMa blocks</li>\n</ol>\n<h3>Hours to confirm</h3>\n<ul>\n<li><strong>Jamyang:</strong> ~12:00\u201313:30 \u2014 implementing tickets to live</li>\n<li><strong>Rigpa:</strong> from ~17:00 \u2014 event calendar improvements</li>\n<li><strong>Also mentioned:</strong> ~1.5h Rigpa earlier this week (outside today) \u2014 which day?</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Weekend priority:</strong> Mindful SEO (FPMT) \u2014 <strong>1.5h Saturday + 1.5h Sunday</strong> (morning or anytime during each day)</li>\n<li><strong>Saturday also:</strong> Rigpa sticky-in-month-view changes are ready \u2014 add them to the <strong>dev site</strong></li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Weekend plan</h2>\n<h3>Saturday 5 Sep</h3>\n<ol>\n<li><strong>Priority (1.5h):</strong> Mindful SEO plugin improvements (FPMT) \u2014 morning or anytime</li>\n<li>Rigpa \u2014 push sticky-in-month-view work onto the <strong>dev site</strong> (ready now)</li>\n<li>Optional later: set up / open FPMT Local WP site if time</li>\n</ol>\n<h3>Sunday 6 Sep</h3>\n<ol>\n<li><strong>Priority (1.5h):</strong> Continue Mindful SEO plugin improvements (FPMT) \u2014 morning or anytime</li>\n</ol>\n<h2>Friday 4 Sep (logged)</h2>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
-        "text": "Add sticky-in-month-view ticket changes to the **dev site** (work is ready now)",
+        "text": "**Priority (1.5h):** Mindful SEO plugin \u2014 FPMT (morning or anytime today)",
         "done": false,
         "priority": false
       },
       {
-        "text": "**First:** Mindful SEO plugin \u2014 continue remaining improvements (WIP; Pep already aware of some)",
+        "text": "Rigpa \u2014 add sticky-in-month-view ticket changes to the **dev site** (ready now)",
         "done": false,
         "priority": false
       },
       {
-        "text": "Optional: load FPMT site in Local WP (only if spare time)",
-        "done": false,
-        "priority": false
-      },
-      {
-        "text": "Continue Mindful SEO plugin improvements",
-        "done": false,
-        "priority": false
-      },
-      {
-        "text": "Log Fri 4 Sep hours (Jamyang live tickets + Rigpa event calendar) when slots confirmed",
+        "text": "**Priority (1.5h):** Mindful SEO plugin \u2014 FPMT (morning or anytime today)",
         "done": false,
         "priority": false
       },
@@ -619,8 +629,8 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-04T18:19:12.327553+01:00",
-    "open_todos": 7
+    "updated_at": "2026-09-04T18:26:15.002423+01:00",
+    "open_todos": 5
   },
   "reflection": {
     "latest": {
