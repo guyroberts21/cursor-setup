@@ -4,21 +4,33 @@ Edit this file locally or ask Cursor to update it. Changes appear on the site af
 
 ## This week
 
-- **Priority:** Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes
-- Continue Jamyang Manager role work (MD-211) around meetings
+- **Tomorrow (Sat 5 Sep):** Rigpa sticky-in-month-view changes are ready — add them to the **dev site**
+- **Weekend focus (FPMT):** Mindful SEO plugin improvements — 1.5h Sat + 1.5h Sun
+- Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)
 - Remember to log hours (and time slots) at end of each session
+- **Still to log (Fri 4 Sep):** Jamyang live tickets + Rigpa event calendar — confirm slots if you want these added
 
-## Today (Fri 4 Sep)
+## Weekend plan
 
-### Morning to-do
-1. **Message Pep** — upcoming holiday
-2. **Draft EdMa email for Pep** — sticky circular images (draft only, don’t send)
-3. **Live site** — implement any of your tickets that are ready to go live
-4. **Assigned queue (not started)** — 1h Rigpa + 1h EdMa from those tickets; third ticket only if time
+### Saturday 6 Sep (1.5h — FPMT / Mindful SEO)
+1. **First task:** Continue Mindful SEO plugin improvements (WIP; Pep already briefed on some of these)
+2. Optional later: set up / open FPMT Local WP site if time
 
-### Notes
-- Don’t sweat ticket specifics until morning — pull from your assigned column
-- Live-ready work first, then the timed Rigpa / EdMa blocks
+### Sunday 7 Sep (1.5h — FPMT / Mindful SEO)
+- Continue Mindful SEO improvements (same FPMT bucket)
+
+## Friday 4 Sep (done / to confirm)
+
+### Morning to-do (from earlier)
+1. Message Pep — upcoming holiday
+2. Draft EdMa email for Pep — sticky circular images (draft only)
+3. Live site — implement ready tickets
+4. Assigned queue — Rigpa + EdMa blocks
+
+### Hours to confirm
+- **Jamyang:** ~12:00–13:30 — implementing tickets to live
+- **Rigpa:** from ~17:00 — event calendar improvements
+- **Also mentioned:** ~1.5h Rigpa earlier this week (outside today) — which day?
 
 ## Yesterday (Wed 3 Sep)
 

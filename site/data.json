@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T21:45:30.586489+01:00",
+  "generated_at": "2026-09-04T18:19:12.402368+01:00",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-31",
     "end": "2026-09-06",
-    "work_days_remaining": 3
+    "work_days_remaining": 2
   },
   "hours": {
     "total_target": 10.0,
@@ -75,7 +75,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 4,
@@ -90,7 +90,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 87,
@@ -106,7 +106,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 103,
@@ -121,7 +121,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 184,
@@ -137,7 +137,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 186,
@@ -152,7 +152,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 206,
@@ -168,7 +168,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 208,
@@ -183,7 +183,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     }
   ],
   "all_assigned_count": 18,
@@ -201,7 +201,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 4,
@@ -216,7 +216,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 12,
@@ -232,7 +232,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 13,
@@ -247,7 +247,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 86,
@@ -262,7 +262,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 87,
@@ -278,7 +278,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 103,
@@ -293,7 +293,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 184,
@@ -309,7 +309,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 186,
@@ -324,7 +324,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 196,
@@ -339,7 +339,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 206,
@@ -355,7 +355,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 208,
@@ -370,7 +370,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 211,
@@ -384,7 +384,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 259,
@@ -398,7 +398,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 96,
@@ -411,7 +411,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 97,
@@ -424,7 +424,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 456,
@@ -437,7 +437,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 6
+      "days_since_update": 7
     },
     {
       "number": 10,
@@ -453,7 +453,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 3
+      "days_since_update": 4
     }
   ],
   "recent_log": [
@@ -579,41 +579,36 @@
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Priority:</strong> Redownload the EdMa site so you have the latest search bar plugin before making further EdMa changes</li>\n<li>Continue Jamyang Manager role work (MD-211) around meetings</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Today (Fri 4 Sep)</h2>\n<h3>Morning to-do</h3>\n<ol>\n<li><strong>Message Pep</strong> \u2014 upcoming holiday</li>\n<li><strong>Draft EdMa email for Pep</strong> \u2014 sticky circular images (draft only, don\u2019t send)</li>\n<li><strong>Live site</strong> \u2014 implement any of your tickets that are ready to go live</li>\n<li><strong>Assigned queue (not started)</strong> \u2014 1h Rigpa + 1h EdMa from those tickets; third ticket only if time</li>\n</ol>\n<h3>Notes</h3>\n<ul>\n<li>Don\u2019t sweat ticket specifics until morning \u2014 pull from your assigned column</li>\n<li>Live-ready work first, then the timed Rigpa / EdMa blocks</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week</h2>\n<ul>\n<li><strong>Tomorrow (Sat 5 Sep):</strong> Rigpa sticky-in-month-view changes are ready \u2014 add them to the <strong>dev site</strong></li>\n<li><strong>Weekend focus (FPMT):</strong> Mindful SEO plugin improvements \u2014 1.5h Sat + 1.5h Sun</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n<li><strong>Still to log (Fri 4 Sep):</strong> Jamyang live tickets + Rigpa event calendar \u2014 confirm slots if you want these added</li>\n</ul>\n<h2>Weekend plan</h2>\n<h3>Saturday 6 Sep (1.5h \u2014 FPMT / Mindful SEO)</h3>\n<ol>\n<li><strong>First task:</strong> Continue Mindful SEO plugin improvements (WIP; Pep already briefed on some of these)</li>\n<li>Optional later: set up / open FPMT Local WP site if time</li>\n</ol>\n<h3>Sunday 7 Sep (1.5h \u2014 FPMT / Mindful SEO)</h3>\n<ul>\n<li>Continue Mindful SEO improvements (same FPMT bucket)</li>\n</ul>\n<h2>Friday 4 Sep (done / to confirm)</h2>\n<h3>Morning to-do (from earlier)</h3>\n<ol>\n<li>Message Pep \u2014 upcoming holiday</li>\n<li>Draft EdMa email for Pep \u2014 sticky circular images (draft only)</li>\n<li>Live site \u2014 implement ready tickets</li>\n<li>Assigned queue \u2014 Rigpa + EdMa blocks</li>\n</ol>\n<h3>Hours to confirm</h3>\n<ul>\n<li><strong>Jamyang:</strong> ~12:00\u201313:30 \u2014 implementing tickets to live</li>\n<li><strong>Rigpa:</strong> from ~17:00 \u2014 event calendar improvements</li>\n<li><strong>Also mentioned:</strong> ~1.5h Rigpa earlier this week (outside today) \u2014 which day?</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
-        "text": "Message Pep \u2014 upcoming holiday",
+        "text": "Add sticky-in-month-view ticket changes to the **dev site** (work is ready now)",
         "done": false,
         "priority": false
       },
       {
-        "text": "Draft EdMa email for Pep \u2014 sticky circular images (don\u2019t send)",
+        "text": "**First:** Mindful SEO plugin \u2014 continue remaining improvements (WIP; Pep already aware of some)",
         "done": false,
         "priority": false
       },
       {
-        "text": "Live site \u2014 implement ready-to-go tickets",
+        "text": "Optional: load FPMT site in Local WP (only if spare time)",
         "done": false,
         "priority": false
       },
       {
-        "text": "1h Rigpa \u2014 unstarted assigned ticket",
+        "text": "Continue Mindful SEO plugin improvements",
         "done": false,
         "priority": false
       },
       {
-        "text": "1h EdMa \u2014 unstarted assigned ticket",
+        "text": "Log Fri 4 Sep hours (Jamyang live tickets + Rigpa event calendar) when slots confirmed",
         "done": false,
         "priority": false
       },
       {
-        "text": "Third unstarted assigned ticket \u2014 only if time",
-        "done": false,
-        "priority": false
-      },
-      {
-        "text": "Redownload EdMa site \u2014 get latest search bar plugin before any further EdMa changes (priority)",
+        "text": "Redownload EdMa site \u2014 latest search bar plugin before further EdMa changes",
         "done": false,
         "priority": true
       },
@@ -624,8 +619,8 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-03T21:45:14.007985+01:00",
-    "open_todos": 8
+    "updated_at": "2026-09-04T18:19:12.327553+01:00",
+    "open_todos": 7
   },
   "reflection": {
     "latest": {
