@@ -72,3 +72,19 @@ entries:
     hours: 1
     note: Live tickets implementation
     extra: false
+  - date: 2026-09-05
+    project_id: mindful-design
+    hours: 1
+    note: MindfulSEO plugin / UX planning & work
+    extra: true
+    slots:
+      - start: "12:00"
+        end: "13:00"
+  - date: 2026-09-06
+    project_id: mindful-design
+    hours: 1.5
+    note: MindfulSEO plugin / UX planning & work
+    extra: true
+    slots:
+      - start: "15:30"
+        end: "17:00"
