@@ -88,3 +88,34 @@ entries:
     slots:
       - start: "15:30"
         end: "17:00"
+  - date: 2026-09-07
+    project_id: mindful-design
+    hours: 0.5
+    note: Meeting
+    extra: true
+    slots:
+      - start: "10:00"
+        end: "10:30"
+  - date: 2026-09-07
+    project_id: mindful-design
+    hours: 1
+    note: Meeting
+    extra: true
+    slots:
+      - start: "11:45"
+        end: "12:45"
+  - date: 2026-09-07
+    project_id: edma
+    hours: 2
+    note: Éditions Mahayana / Mindful Search work
+    extra: false
+  - date: 2026-09-07
+    project_id: fpmt
+    hours: 1.5
+    note: MindfulSEO under FPMT
+    extra: false
+  - date: 2026-09-07
+    project_id: jamyang
+    hours: 0.5
+    note: Jamyang work
+    extra: false

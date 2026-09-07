@@ -2,13 +2,20 @@
 
 Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.
 
-## This week
+## This week (W36 — 7–13 Sep)
 
-- **Weekend logged (FPMT):** Sat 5 Sep 1h (12:00–13:00) + Sun 6 Sep 1.5h (15:30–17:00) — MindfulSEO plugin / UX planning & work under FPMT.
-- **Monday 7 Sep AM priority:** Push MindfulSEO Cursor work from Sunday afternoon (Getting Started / dashboard plans & related local Cursor builds) before other work.
-- Leftover (not this weekend’s focus): Rigpa sticky-in-month-view changes are ready — add them to the **dev site** when it fits
+- **Targets:** EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)
+- **Monday 7 Sep logged:** 0.5h + 1h Mindful Design meetings (extra) · 2h EdMa (Mindful Search) · 1.5h FPMT (MindfulSEO) · 0.5h Jamyang
+- Leftover: Rigpa sticky-in-month-view changes are ready — add them to the **dev site** when it fits
 - Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)
 - Remember to log hours (and time slots) at end of each session
+
+## Monday 7 Sep (logged)
+
+- **Meetings (extra MD):** 10:00–10:30 (0.5h) + 11:45–12:45 (1h)
+- **EdMa:** 2h — Éditions Mahayana / Mindful Search work (week target done)
+- **FPMT:** 1.5h — MindfulSEO under FPMT (1.5h of 3h remaining)
+- **Jamyang:** 0.5h — Jamyang work (2.5h remaining)
 
 ## Weekend (logged)
 
