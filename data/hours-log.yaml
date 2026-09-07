@@ -73,18 +73,18 @@ entries:
     note: Live tickets implementation
     extra: false
   - date: 2026-09-05
-    project_id: mindful-design
+    project_id: fpmt
     hours: 1
-    note: MindfulSEO plugin / UX planning & work
-    extra: true
+    note: MindfulSEO plugin / UX planning & work under FPMT
+    extra: false
     slots:
       - start: "12:00"
         end: "13:00"
   - date: 2026-09-06
-    project_id: mindful-design
+    project_id: fpmt
     hours: 1.5
-    note: MindfulSEO plugin / UX planning & work
-    extra: true
+    note: MindfulSEO plugin / UX planning & work under FPMT
+    extra: false
     slots:
       - start: "15:30"
         end: "17:00"

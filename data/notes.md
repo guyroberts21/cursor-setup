@@ -4,7 +4,7 @@ Edit this file locally or ask Cursor to update it. Changes appear on the site af
 
 ## This week
 
-- **Weekend logged (extra / Mindful Design):** Sat 5 Sep 1h (12:00–13:00) + Sun 6 Sep 1.5h (15:30–17:00) — MindfulSEO plugin / UX planning & work. Not in the weekly client target buckets.
+- **Weekend logged (FPMT):** Sat 5 Sep 1h (12:00–13:00) + Sun 6 Sep 1.5h (15:30–17:00) — MindfulSEO plugin / UX planning & work under FPMT.
 - **Monday 7 Sep AM priority:** Push MindfulSEO Cursor work from Sunday afternoon (Getting Started / dashboard plans & related local Cursor builds) before other work.
 - Leftover (not this weekend’s focus): Rigpa sticky-in-month-view changes are ready — add them to the **dev site** when it fits
 - Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)
@@ -12,13 +12,13 @@ Edit this file locally or ask Cursor to update it. Changes appear on the site af
 
 ## Weekend (logged)
 
-Earlier weekend plan had Mindful SEO under FPMT; the hours that landed were Mindful Design product/UX time (logged extra), so that FPMT weekend bucket is dropped.
+Weekend MindfulSEO work is logged under FPMT (not extra MD).
 
 ### Saturday 5 Sep
-- Logged 1h extra MD — MindfulSEO plugin / UX planning & work (12:00–13:00)
+- Logged 1h FPMT — MindfulSEO plugin / UX planning & work (12:00–13:00)
 
 ### Sunday 6 Sep
-- Logged 1.5h extra MD — MindfulSEO plugin / UX planning & work (15:30–17:00)
+- Logged 1.5h FPMT — MindfulSEO plugin / UX planning & work (15:30–17:00)
 
 
 ## Friday 4 Sep (logged)
