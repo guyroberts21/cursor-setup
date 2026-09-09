@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-07T16:56:36.966351+00:00",
+  "generated_at": "2026-09-09T08:48:04.273344+00:00",
   "week": {
     "id": "2026-W36",
     "start": "2026-09-07",
     "end": "2026-09-13",
-    "work_days_remaining": 6
+    "work_days_remaining": 4
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 4.0,
-    "total_remaining": 6.0,
+    "total_logged": 6.0,
+    "total_remaining": 4.0,
     "extra_logged": 1.5,
     "extra_breakdown": [
       {
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 3.0,
-        "logged_hours": 0.5,
-        "remaining_hours": 2.5,
+        "logged_hours": 1.5,
+        "remaining_hours": 1.5,
         "github_clients": [
           "Jamyang"
         ]
@@ -53,8 +53,8 @@
         "id": "rigpa",
         "name": "Rigpa Web Support",
         "target_hours": 2.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 2.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 1.0,
         "github_clients": [
           "Rigpa"
         ]
@@ -75,7 +75,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 4,
@@ -90,7 +90,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 87,
@@ -106,7 +106,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 103,
@@ -121,7 +121,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 184,
@@ -137,7 +137,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 186,
@@ -152,7 +152,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 206,
@@ -168,7 +168,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 208,
@@ -183,7 +183,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     }
   ],
   "all_assigned_count": 18,
@@ -201,7 +201,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 4,
@@ -216,7 +216,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 12,
@@ -232,7 +232,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 13,
@@ -247,7 +247,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 86,
@@ -262,7 +262,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 87,
@@ -278,7 +278,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 103,
@@ -293,7 +293,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 184,
@@ -309,7 +309,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 186,
@@ -324,7 +324,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 196,
@@ -339,7 +339,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 206,
@@ -355,7 +355,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 208,
@@ -370,7 +370,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 211,
@@ -384,7 +384,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 259,
@@ -398,7 +398,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 12
     },
     {
       "number": 96,
@@ -411,7 +411,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 11
     },
     {
       "number": 97,
@@ -424,7 +424,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 11
     },
     {
       "number": 456,
@@ -437,7 +437,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 10
+      "days_since_update": 11
     },
     {
       "number": 10,
@@ -453,10 +453,40 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 7
+      "days_since_update": 8
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-08",
+      "project_id": "rigpa",
+      "hours": 1,
+      "note": "Sticky-in-month-view / event calendar",
+      "extra": false,
+      "slots": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "project_name": "Rigpa Web Support",
+      "time_label": "14:00\u201315:00"
+    },
+    {
+      "date": "2026-09-08",
+      "project_id": "jamyang",
+      "hours": 1,
+      "note": "Jamyang work",
+      "extra": false,
+      "slots": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        }
+      ],
+      "project_name": "Jamyang Digital Ops",
+      "time_label": "11:00\u201312:00"
+    },
     {
       "date": "2026-09-07",
       "project_id": "edma",
@@ -606,41 +636,11 @@
       "project_name": "Jamyang Digital Ops",
       "slots": [],
       "time_label": null
-    },
-    {
-      "date": "2026-09-02",
-      "project_id": "jamyang",
-      "hours": 0.5,
-      "note": "Jamyang Manager role (MD-211)",
-      "extra": false,
-      "slots": [
-        {
-          "start": "15:30",
-          "end": "16:00"
-        }
-      ],
-      "project_name": "Jamyang Digital Ops",
-      "time_label": "15:30\u201316:00"
-    },
-    {
-      "date": "2026-09-02",
-      "project_id": "edma",
-      "hours": 1,
-      "note": "DNG review; set up local repo for search bar / mobile view updates",
-      "extra": false,
-      "slots": [
-        {
-          "start": "14:30",
-          "end": "15:30"
-        }
-      ],
-      "project_name": "EdMa Website Support",
-      "time_label": "14:30\u201315:30"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week (W36 \u2014 7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Monday 7 Sep logged:</strong> 0.5h + 1h Mindful Design meetings (extra) \u00b7 2h EdMa (Mindful Search) \u00b7 1.5h FPMT (MindfulSEO) \u00b7 0.5h Jamyang</li>\n<li>Leftover: Rigpa sticky-in-month-view changes are ready \u2014 add them to the <strong>dev site</strong> when it fits</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Monday 7 Sep (logged)</h2>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT (1.5h of 3h remaining)</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work (2.5h remaining)</li>\n</ul>\n<h2>Weekend (logged)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h2>Friday 4 Sep (logged)</h2>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week (W36 \u2014 7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Logged so far:</strong> 2h EdMa (done) \u00b7 1.5h FPMT \u00b7 1.5h Jamyang \u00b7 1h Rigpa \u2014 <strong>6h / 10h</strong> (4h left) + 1.5h extra MD meetings</li>\n<li><strong>Tuesday 8 Sep logged:</strong> 1h Jamyang (11:00\u201312:00) \u00b7 1h Rigpa (14:00\u201315:00)</li>\n<li>Leftover: Rigpa sticky-in-month-view \u2014 remaining 1h; add changes to the <strong>dev site</strong> when it fits</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Tuesday 8 Sep (logged)</h2>\n<ul>\n<li><strong>Jamyang:</strong> 1h \u2014 Jamyang work (11:00\u201312:00); 1.5h of 3h remaining</li>\n<li><strong>Rigpa:</strong> 1h \u2014 sticky-in-month-view / event calendar (14:00\u201315:00); 1h of 2h remaining</li>\n</ul>\n<h2>Monday 7 Sep (logged)</h2>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT (1.5h of 3h remaining)</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work (2.5h remaining)</li>\n</ul>\n<h2>Weekend (logged)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h2>Friday 4 Sep (logged)</h2>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
@@ -649,12 +649,12 @@
         "priority": true
       },
       {
-        "text": "Jamyang \u2014 2.5h left (Manager role MD-211 / live tickets)",
+        "text": "Jamyang \u2014 1.5h left (Manager role MD-211 / live tickets)",
         "done": false,
         "priority": true
       },
       {
-        "text": "Rigpa \u2014 2h left; add sticky-in-month-view ticket changes to the **dev site**",
+        "text": "Rigpa \u2014 1h left; add sticky-in-month-view ticket changes to the **dev site**",
         "done": false,
         "priority": true
       },
@@ -680,7 +680,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-07T16:56:22.498511+00:00",
+    "updated_at": "2026-09-09T08:47:54.010603+00:00",
     "open_todos": 6
   },
   "reflection": {

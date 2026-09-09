@@ -119,3 +119,19 @@ entries:
     hours: 0.5
     note: Jamyang work
     extra: false
+  - date: 2026-09-08
+    project_id: jamyang
+    hours: 1
+    note: Jamyang work
+    extra: false
+    slots:
+      - start: "11:00"
+        end: "12:00"
+  - date: 2026-09-08
+    project_id: rigpa
+    hours: 1
+    note: Sticky-in-month-view / event calendar
+    extra: false
+    slots:
+      - start: "14:00"
+        end: "15:00"

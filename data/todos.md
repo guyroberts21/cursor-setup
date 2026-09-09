@@ -3,8 +3,8 @@
 ## Later this week (W36 remaining)
 
 - [ ] ! FPMT — 1.5h left (MindfulSEO / site work)
-- [ ] ! Jamyang — 2.5h left (Manager role MD-211 / live tickets)
-- [ ] ! Rigpa — 2h left; add sticky-in-month-view ticket changes to the **dev site**
+- [ ] ! Jamyang — 1.5h left (Manager role MD-211 / live tickets)
+- [ ] ! Rigpa — 1h left; add sticky-in-month-view ticket changes to the **dev site**
 
 ## Later / ongoing
 
