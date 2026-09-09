@@ -135,3 +135,19 @@ entries:
     slots:
       - start: "14:00"
         end: "15:00"
+  - date: 2026-09-09
+    project_id: mindful-design
+    hours: 0.75
+    note: 1:1 with Pep
+    extra: true
+    slots:
+      - start: "11:00"
+        end: "11:45"
+  - date: 2026-09-09
+    project_id: mindful-design
+    hours: 1.5
+    note: Mindful Design team meeting
+    extra: true
+    slots:
+      - start: "12:00"
+        end: "13:30"

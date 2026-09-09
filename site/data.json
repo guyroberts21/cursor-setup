@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T08:48:04.273344+00:00",
+  "generated_at": "2026-09-09T18:16:36.248215+00:00",
   "week": {
     "id": "2026-W36",
     "start": "2026-09-07",
@@ -10,12 +10,12 @@
     "total_target": 10.0,
     "total_logged": 6.0,
     "total_remaining": 4.0,
-    "extra_logged": 1.5,
+    "extra_logged": 3.75,
     "extra_breakdown": [
       {
         "id": "mindful-design",
         "name": "Mindful Design",
-        "logged_hours": 1.5
+        "logged_hours": 3.75
       }
     ],
     "projects": [
@@ -411,7 +411,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 11
+      "days_since_update": 12
     },
     {
       "number": 97,
@@ -424,7 +424,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 11
+      "days_since_update": 12
     },
     {
       "number": 456,
@@ -437,7 +437,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 11
+      "days_since_update": 12
     },
     {
       "number": 10,
@@ -453,10 +453,40 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 8
+      "days_since_update": 9
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-09",
+      "project_id": "mindful-design",
+      "hours": 1.5,
+      "note": "Mindful Design team meeting",
+      "extra": true,
+      "slots": [
+        {
+          "start": "12:00",
+          "end": "13:30"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "12:00\u201313:30"
+    },
+    {
+      "date": "2026-09-09",
+      "project_id": "mindful-design",
+      "hours": 0.75,
+      "note": "1:1 with Pep",
+      "extra": true,
+      "slots": [
+        {
+          "start": "11:00",
+          "end": "11:45"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "11:00\u201311:45"
+    },
     {
       "date": "2026-09-08",
       "project_id": "rigpa",
@@ -611,36 +641,11 @@
       ],
       "project_name": "EdMa Website Support",
       "time_label": "11:00\u201312:00"
-    },
-    {
-      "date": "2026-09-03",
-      "project_id": "jamyang",
-      "hours": 1,
-      "note": "Jamyang Manager role (MD-211)",
-      "extra": false,
-      "slots": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        }
-      ],
-      "project_name": "Jamyang Digital Ops",
-      "time_label": "10:00\u201311:00"
-    },
-    {
-      "date": "2026-09-02",
-      "project_id": "jamyang",
-      "hours": 0.5,
-      "note": "Jamyang Manager role (MD-211)",
-      "extra": false,
-      "project_name": "Jamyang Digital Ops",
-      "slots": [],
-      "time_label": null
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week (W36 \u2014 7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Logged so far:</strong> 2h EdMa (done) \u00b7 1.5h FPMT \u00b7 1.5h Jamyang \u00b7 1h Rigpa \u2014 <strong>6h / 10h</strong> (4h left) + 1.5h extra MD meetings</li>\n<li><strong>Tuesday 8 Sep logged:</strong> 1h Jamyang (11:00\u201312:00) \u00b7 1h Rigpa (14:00\u201315:00)</li>\n<li>Leftover: Rigpa sticky-in-month-view \u2014 remaining 1h; add changes to the <strong>dev site</strong> when it fits</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Tuesday 8 Sep (logged)</h2>\n<ul>\n<li><strong>Jamyang:</strong> 1h \u2014 Jamyang work (11:00\u201312:00); 1.5h of 3h remaining</li>\n<li><strong>Rigpa:</strong> 1h \u2014 sticky-in-month-view / event calendar (14:00\u201315:00); 1h of 2h remaining</li>\n</ul>\n<h2>Monday 7 Sep (logged)</h2>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT (1.5h of 3h remaining)</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work (2.5h remaining)</li>\n</ul>\n<h2>Weekend (logged)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h2>Friday 4 Sep (logged)</h2>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Brief notes</h1>\n<p>Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.</p>\n<h2>This week (W36 \u2014 7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Logged so far:</strong> 2h EdMa (done) \u00b7 1.5h FPMT \u00b7 1.5h Jamyang \u00b7 1h Rigpa \u2014 <strong>6h / 10h</strong> (4h left) + 3.75h extra MD meetings</li>\n<li><strong>Wednesday 9 Sep logged:</strong> 0.75h + 1.5h Mindful Design meetings (extra, not billable client buckets)</li>\n<li><strong>Tuesday 8 Sep logged:</strong> 1h Jamyang (11:00\u201312:00) \u00b7 1h Rigpa (14:00\u201315:00)</li>\n<li>Leftover: Rigpa sticky-in-month-view \u2014 remaining 1h; add changes to the <strong>dev site</strong> when it fits</li>\n<li>Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h2>Wednesday 9 Sep (logged)</h2>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 11:00\u201311:45 1:1 with Pep (0.75h) + 12:00\u201313:30 Mindful Design team meeting (1.5h)</li>\n<li>These are extra (not billable client buckets)</li>\n</ul>\n<h2>Tuesday 8 Sep (logged)</h2>\n<ul>\n<li><strong>Jamyang:</strong> 1h \u2014 Jamyang work (11:00\u201312:00); 1.5h of 3h remaining</li>\n<li><strong>Rigpa:</strong> 1h \u2014 sticky-in-month-view / event calendar (14:00\u201315:00); 1h of 2h remaining</li>\n</ul>\n<h2>Monday 7 Sep (logged)</h2>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT (1.5h of 3h remaining)</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work (2.5h remaining)</li>\n</ul>\n<h2>Weekend (logged)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h2>Friday 4 Sep (logged)</h2>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h2>Yesterday (Wed 3 Sep)</h2>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p><strong>For tomorrow's meeting:</strong> The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
@@ -680,7 +685,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-09T08:47:54.010603+00:00",
+    "updated_at": "2026-09-09T18:13:46.115485+00:00",
     "open_todos": 6
   },
   "reflection": {

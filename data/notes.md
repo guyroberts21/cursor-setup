@@ -5,11 +5,17 @@ Edit this file locally or ask Cursor to update it. Changes appear on the site af
 ## This week (W36 — 7–13 Sep)
 
 - **Targets:** EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)
-- **Logged so far:** 2h EdMa (done) · 1.5h FPMT · 1.5h Jamyang · 1h Rigpa — **6h / 10h** (4h left) + 1.5h extra MD meetings
+- **Logged so far:** 2h EdMa (done) · 1.5h FPMT · 1.5h Jamyang · 1h Rigpa — **6h / 10h** (4h left) + 3.75h extra MD meetings
+- **Wednesday 9 Sep logged:** 0.75h + 1.5h Mindful Design meetings (extra, not billable client buckets)
 - **Tuesday 8 Sep logged:** 1h Jamyang (11:00–12:00) · 1h Rigpa (14:00–15:00)
 - Leftover: Rigpa sticky-in-month-view — remaining 1h; add changes to the **dev site** when it fits
 - Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)
 - Remember to log hours (and time slots) at end of each session
+
+## Wednesday 9 Sep (logged)
+
+- **Meetings (extra MD):** 11:00–11:45 1:1 with Pep (0.75h) + 12:00–13:30 Mindful Design team meeting (1.5h)
+- These are extra (not billable client buckets)
 
 ## Tuesday 8 Sep (logged)
 
