@@ -1,0 +1,20 @@
+week_start: 2026-09-14
+week_end: 2026-09-20
+projects:
+  - id: fdcw
+    name: FDCW Communications
+    target_hours: 5
+    github_clients: [FDCW]
+  - id: rigpa
+    name: Rigpa Web Support
+    target_hours: 2
+    github_clients: [Rigpa]
+  - id: tushita
+    name: Tushita Website Support
+    target_hours: 2
+    github_clients: [Tushita]
+  - id: edma
+    name: EdMa Website Support
+    target_hours: 1
+    github_clients: [EdMa]
+total_target: 10

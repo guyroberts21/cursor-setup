@@ -151,3 +151,8 @@ entries:
     slots:
       - start: "12:00"
         end: "13:30"
+  - date: 2026-09-10
+    project_id: fpmt
+    hours: 0.5
+    note: Checked broken scrolling window on phone (FPMT)
+    extra: false

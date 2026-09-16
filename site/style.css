@@ -344,13 +344,20 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
   font-size: 0.75rem;
 }
 
+.markdown-body h1,
 .markdown-body h2 {
   font-size: 1rem;
   margin: 1.25rem 0 0.5rem;
 }
 
+.markdown-body h1:first-child,
 .markdown-body h2:first-child {
   margin-top: 0;
+}
+
+.markdown-body h3 {
+  font-size: 0.9rem;
+  margin: 1rem 0 0.4rem;
 }
 
 .markdown-body ul {
@@ -361,6 +368,44 @@ h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
 .markdown-body p {
   color: var(--muted);
   margin-bottom: 0.75rem;
+}
+
+.markdown-body a,
+.source-hint a {
+  color: var(--accent);
+}
+
+.archive-intro {
+  max-width: 1200px;
+  margin: 0 auto 1rem;
+}
+
+.archive-weeks {
+  display: grid;
+  gap: 1rem;
+}
+
+.archive-week {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.archive-week h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.archive-week .muted {
+  margin-bottom: 0.85rem;
+}
+
+.archive-current-note {
+  margin-bottom: 0.75rem;
+}
+
+.archive-current-note a {
+  color: var(--accent);
 }
 
 .todo-list {

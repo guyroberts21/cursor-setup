@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guy — Notes &amp; Reflection</title>
+  <title>Guy — Archive &amp; Backlog</title>
   <script>
     (() => {
       const stored = localStorage.getItem("dashboard-theme");
@@ -21,8 +21,8 @@
   <nav class="nav">
     <div class="nav-links">
       <a href="index.html">Dashboard</a>
-      <a href="personal.html" class="active">Notes &amp; Reflection</a>
-      <a href="archive.html">Archive</a>
+      <a href="personal.html">Notes &amp; Reflection</a>
+      <a href="archive.html" class="active">Archive</a>
     </div>
     <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">System</button>
   </nav>
@@ -30,41 +30,32 @@
   <header class="header">
     <div>
       <p class="eyebrow">Mindful Design</p>
-      <h1>Notes &amp; Reflection</h1>
+      <h1>Archive &amp; Backlog</h1>
     </div>
-    <div class="header-meta" id="personal-meta">Loading…</div>
+    <div class="header-meta" id="archive-meta">Loading…</div>
   </header>
 
   <main>
-    <section class="card reflection-card">
-      <div class="card-head">
-        <h2>End of day</h2>
-        <span class="badge" id="reflection-date"></span>
-      </div>
-      <p class="source-hint">Synced from <code>data/reflections.yaml</code></p>
-      <div id="reflection-latest" class="reflection-body">Loading…</div>
-
-      <h3 class="subsection-title">Shutdown ritual</h3>
-      <div id="shutdown-ritual" class="markdown-body ritual-body"></div>
+    <section class="card archive-intro">
+      <h2>Previous weeks</h2>
+      <p class="source-hint">Built from <code>data/weeks/*.yaml</code> and the hours log. Current week stays on the dashboard.</p>
+      <div id="weeks" class="archive-weeks">Loading…</div>
     </section>
 
     <div class="grid personal-grid">
       <section class="card">
-        <div class="card-head">
-          <h2>This week</h2>
-          <span class="badge" id="notes-week"></span>
-        </div>
-        <p class="source-hint">This week from <code>data/notes.md</code> · <a href="archive.html">older notes</a></p>
-        <div class="markdown-body" id="notes">Loading…</div>
+        <h2>Archived notes</h2>
+        <p class="source-hint">Synced from <code>data/archive/notes-archive.md</code></p>
+        <div class="markdown-body" id="archive-notes">Loading…</div>
       </section>
 
       <section class="card">
         <div class="card-head">
-          <h2>This week's todos</h2>
-          <span class="badge" id="todo-count"></span>
+          <h2>Backlog todos</h2>
+          <span class="badge" id="archive-todo-count"></span>
         </div>
-        <p class="source-hint">From <code>data/todos.md</code> · <a href="archive.html">backlog</a></p>
-        <ul class="todo-list" id="todos"></ul>
+        <p class="source-hint">Synced from <code>data/archive/todos-archive.md</code></p>
+        <ul class="todo-list" id="archive-todos"></ul>
       </section>
     </div>
   </main>
@@ -74,6 +65,6 @@
   </footer>
 
   <script src="theme.js"></script>
-  <script src="personal.js"></script>
+  <script src="archive.js"></script>
 </body>
 </html>

@@ -67,6 +67,10 @@ function renderReflection(data) {
 
 function renderPersonal(data) {
   const personal = data.personal;
+  const weekBadge = document.getElementById("notes-week");
+  if (weekBadge && data.week) {
+    weekBadge.textContent = data.week.id;
+  }
   document.getElementById("notes").innerHTML =
     personal.notes_html || "<p>No notes yet. Edit <code>data/notes.md</code>.</p>";
 

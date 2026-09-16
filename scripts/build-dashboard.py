@@ -26,6 +26,8 @@ HOURS_PATH = ROOT / "data" / "hours-log.yaml"
 CACHE_PATH = ROOT / "data" / "github-cache.json"
 NOTES_PATH = ROOT / "data" / "notes.md"
 TODOS_PATH = ROOT / "data" / "todos.md"
+ARCHIVE_NOTES_PATH = ROOT / "data" / "archive" / "notes-archive.md"
+ARCHIVE_TODOS_PATH = ROOT / "data" / "archive" / "todos-archive.md"
 REFLECTIONS_PATH = ROOT / "data" / "reflections.yaml"
 RITUAL_PATH = ROOT / "data" / "shutdown-ritual.md"
 PROJECTS_PATH = ROOT / "config" / "projects.yaml"
@@ -180,11 +182,17 @@ def parse_todos(path: Path) -> list[dict]:
     return todos
 
 
+def md_to_html(path: Path) -> str:
+    if not path.exists():
+        return ""
+    raw = path.read_text(encoding="utf-8")
+    return markdown.markdown(raw, extensions=["extra"]) if raw.strip() else ""
+
+
 def load_personal() -> dict:
     notes_mtime = NOTES_PATH.stat().st_mtime if NOTES_PATH.exists() else None
     todos_mtime = TODOS_PATH.stat().st_mtime if TODOS_PATH.exists() else None
-    notes_raw = NOTES_PATH.read_text(encoding="utf-8") if NOTES_PATH.exists() else ""
-    notes_html = markdown.markdown(notes_raw, extensions=["extra"]) if notes_raw.strip() else ""
+    notes_html = md_to_html(NOTES_PATH)
     todos = parse_todos(TODOS_PATH)
     updated = max((m for m in (notes_mtime, todos_mtime) if m), default=None)
     return {
@@ -193,6 +201,51 @@ def load_personal() -> dict:
         "todos": todos,
         "todos_source": "data/todos.md",
         "updated_at": datetime.fromtimestamp(updated).astimezone().isoformat() if updated else None,
+        "open_todos": sum(1 for t in todos if not t["done"]),
+    }
+
+
+def load_weeks_archive(
+    entries: list[dict], current_id: str
+) -> list[dict]:
+    weeks: list[dict] = []
+    if not WEEKS_DIR.exists():
+        return weeks
+    for path in WEEKS_DIR.glob("*.yaml"):
+        week = load_yaml(path)
+        week_start = date.fromisoformat(str(week["week_start"]))
+        week_end = date.fromisoformat(str(week["week_end"]))
+        logged = hours_in_week(entries, week_start, week_end, extra=False)
+        extra_logged = hours_in_week(entries, week_start, week_end, extra=True)
+        projects = build_project_summary(week, logged)
+        total_target = float(week.get("total_target", sum(p["target_hours"] for p in projects)))
+        total_logged = sum(p["logged_hours"] for p in projects)
+        weeks.append(
+            {
+                "id": path.stem,
+                "start": week_start.isoformat(),
+                "end": week_end.isoformat(),
+                "total_target": total_target,
+                "total_logged": total_logged,
+                "total_remaining": max(0.0, total_target - total_logged),
+                "extra_logged": sum(extra_logged.values()),
+                "projects": projects,
+                "is_current": path.stem == current_id,
+                "source": f"data/weeks/{path.name}",
+            }
+        )
+    weeks.sort(key=lambda w: w["start"], reverse=True)
+    return weeks
+
+
+def load_archive(entries: list[dict], current_id: str) -> dict:
+    todos = parse_todos(ARCHIVE_TODOS_PATH)
+    return {
+        "weeks": load_weeks_archive(entries, current_id),
+        "notes_html": md_to_html(ARCHIVE_NOTES_PATH),
+        "notes_source": "data/archive/notes-archive.md",
+        "todos": todos,
+        "todos_source": "data/archive/todos-archive.md",
         "open_todos": sum(1 for t in todos if not t["done"]),
     }
 
@@ -297,6 +350,7 @@ def main() -> None:
         "github_synced_at": cache.get("synced_at"),
         "personal": load_personal(),
         "reflection": load_reflection(names),
+        "archive": load_archive(entries, week_path.stem),
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)

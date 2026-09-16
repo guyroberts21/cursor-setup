@@ -46,6 +46,7 @@ Or use the `/log-hours` skill.
 1. Push to `main` — the deploy workflow builds and publishes automatically
 2. Live URL: **https://guyroberts21.github.io/cursor-setup/**
 3. Notes & todos page: **https://guyroberts21.github.io/cursor-setup/personal.html**
+4. Archive / backlog: **https://guyroberts21.github.io/cursor-setup/archive.html**
 
 ## Notes and todos (markdown sync)
 
@@ -53,8 +54,10 @@ Edit these files — they sync to the site on every build/deploy:
 
 | File | Purpose |
 |------|---------|
-| `data/notes.md` | Brief notes (markdown) |
-| `data/todos.md` | Personal todo list (`- [ ]` / `- [x]`) |
+| `data/notes.md` | This-week notes (markdown) |
+| `data/todos.md` | This-week todo list (`- [ ]` / `- [x]`) |
+| `data/archive/notes-archive.md` | Older week notes |
+| `data/archive/todos-archive.md` | Backlog / parked todos |
 
 Ask Cursor to update them in chat, or edit directly. Then run `python3 scripts/build-dashboard.py` and push to `main`.
 

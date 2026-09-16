@@ -1,14 +1,9 @@
 # Personal todo
 
-## Later this week (W36 remaining)
+## This week (W37)
 
-- [ ] ! FPMT — 1.5h left (MindfulSEO / site work)
-- [ ] ! Jamyang — 1.5h left (Manager role MD-211 / live tickets)
-- [ ] ! Rigpa — 1h left; add sticky-in-month-view ticket changes to the **dev site**
-
-## Later / ongoing
-
-- [x] Push MindfulSEO Cursor work from Sunday afternoon (Getting Started / dashboard plans & related local Cursor builds)
-- [ ] Rigpa — add sticky-in-month-view ticket changes to the **dev site** (ready now)
-- [ ] ! Redownload EdMa site — latest search bar plugin before further EdMa changes
-- [ ] Jamyang Manager role ticket (MD-211)
+- [ ] ! FDCW Communications — 5h (Sat evening + Sunday morning as one block)
+- [ ] ! Rigpa — 2h Thursday after James (sticky-in-month-view / event calendar to the **dev site**)
+- [ ] ! Tushita Website Support — 2h Friday
+- [ ] ! EdMa — 1h Friday (redownload latest search bar plugin before further changes)
+- [ ] James meeting Thu 17 morning — WordPress synonymizer (outside 10h)

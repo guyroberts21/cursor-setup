@@ -1,59 +1,17 @@
-# Brief notes
+# This week — W37 (14–20 Sep)
 
-Edit this file locally or ask Cursor to update it. Changes appear on the site after the next build/deploy.
+**Targets:** FDCW 5 · Rigpa 2 · Tushita 2 · EdMa 1 (total 10)
 
-## This week (W36 — 7–13 Sep)
+**Logged so far:** 0h / 10h
 
-- **Targets:** EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)
-- **Logged so far:** 2h EdMa (done) · 1.5h FPMT · 1.5h Jamyang · 1h Rigpa — **6h / 10h** (4h left) + 3.75h extra MD meetings
-- **Wednesday 9 Sep logged:** 0.75h + 1.5h Mindful Design meetings (extra, not billable client buckets)
-- **Tuesday 8 Sep logged:** 1h Jamyang (11:00–12:00) · 1h Rigpa (14:00–15:00)
-- Leftover: Rigpa sticky-in-month-view — remaining 1h; add changes to the **dev site** when it fits
-- Optional: load FPMT site in Local WP if there's spare time (nice-to-have, not required)
-- Remember to log hours (and time slots) at end of each session
+## Plan
 
-## Wednesday 9 Sep (logged)
+- **Thu 17 morning:** James meeting — WordPress synonymizer (**outside** the 10h)
+- **Thu after James:** Rigpa 2h (sticky-in-month-view / event calendar → **dev site**)
+- **Fri:** Tushita 2h + EdMa 1h
+- **Sat eve + Sun morn:** FDCW 5h as one block
+- Florence until Saturday
 
-- **Meetings (extra MD):** 11:00–11:45 1:1 with Pep (0.75h) + 12:00–13:30 Mindful Design team meeting (1.5h)
-- These are extra (not billable client buckets)
+## Carryover
 
-## Tuesday 8 Sep (logged)
-
-- **Jamyang:** 1h — Jamyang work (11:00–12:00); 1.5h of 3h remaining
-- **Rigpa:** 1h — sticky-in-month-view / event calendar (14:00–15:00); 1h of 2h remaining
-
-## Monday 7 Sep (logged)
-
-- **Meetings (extra MD):** 10:00–10:30 (0.5h) + 11:45–12:45 (1h)
-- **EdMa:** 2h — Éditions Mahayana / Mindful Search work (week target done)
-- **FPMT:** 1.5h — MindfulSEO under FPMT (1.5h of 3h remaining)
-- **Jamyang:** 0.5h — Jamyang work (2.5h remaining)
-
-## Weekend (logged)
-
-Weekend MindfulSEO work is logged under FPMT (not extra MD).
-
-### Saturday 5 Sep
-- Logged 1h FPMT — MindfulSEO plugin / UX planning & work (12:00–13:00)
-
-### Sunday 6 Sep
-- Logged 1.5h FPMT — MindfulSEO plugin / UX planning & work (15:30–17:00)
-
-
-## Friday 4 Sep (logged)
-
-- **Logged:** 1.5h Rigpa (sticky-in-month-view / event calendar — ready for dev) + 1h Jamyang (live tickets)
-- Earlier plan items (Pep holiday message, EdMa email draft, etc.) — leave as done/carry as needed
-
-## Yesterday (Wed 3 Sep)
-
-- **Logged:** 10:00–12:00 — 1h Jamyang (MD-211) + 1h EdMa (circular photo)
-- **Planned:** ~1h later — pick up new tickets and/or implement to live, depending on energy
-
-## Reminders
-
-- Run `gh auth refresh -s read:project` for board Status on the dashboard
-
-## Meeting feedback — Kanban board
-
-**For tomorrow's meeting:** The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow — e.g. move tickets from *tested on staging/website* to *tested and ready for production* (or *ready for live implementation*). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.
+W36 leftovers (FPMT scrolling / MindfulSEO, Jamyang Manager role) are in the [archive](archive.html).
