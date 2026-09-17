@@ -9,6 +9,7 @@
 - **Thu 17 morning:** James meeting — WordPress synonymizer (**outside** the 10h)
 - **Thu after James:** Rigpa 2h (sticky-in-month-view / event calendar → **dev site**)
 - **Fri:** Tushita 2h + EdMa 1h
+- **Fri reminder:** Fix / push CSS black boxes on Rigpa sites (cause already identified; just needs pushing)
 - **Sat eve + Sun morn:** FDCW 5h as one block
 - Florence until Saturday
 

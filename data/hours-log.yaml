@@ -156,3 +156,11 @@ entries:
     hours: 0.5
     note: Checked broken scrolling window on phone (FPMT)
     extra: false
+  - date: 2026-09-17
+    project_id: mindful-design
+    hours: 1
+    note: Meeting with James — WordPress synonymizer
+    extra: true
+    slots:
+      - start: "10:00"
+        end: "11:00"
