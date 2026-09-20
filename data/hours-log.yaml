@@ -164,3 +164,19 @@ entries:
     slots:
       - start: "10:00"
         end: "11:00"
+  - date: 2026-09-17
+    project_id: rigpa
+    hours: 2
+    note: Rigpa work
+    extra: false
+    slots:
+      - start: "19:00"
+        end: "21:00"
+  - date: 2026-09-18
+    project_id: tushita
+    hours: 1
+    note: Mindful SEO work
+    extra: false
+    slots:
+      - start: "19:00"
+        end: "20:00"
