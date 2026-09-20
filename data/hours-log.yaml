@@ -180,3 +180,13 @@ entries:
     slots:
       - start: "19:00"
         end: "20:00"
+  - date: 2026-09-20
+    project_id: edma
+    hours: 1
+    note: Éditions Mahayana bookstore / boutique work
+    extra: false
+  - date: 2026-09-20
+    project_id: fdcw
+    hours: 1
+    note: FDCW Communications work
+    extra: false

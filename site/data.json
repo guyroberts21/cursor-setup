@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:58:08.086994+00:00",
+  "generated_at": "2026-09-20T12:23:05.291140+00:00",
   "week": {
     "id": "2026-W37",
     "start": "2026-09-14",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 3.0,
-    "total_remaining": 7.0,
+    "total_logged": 5.0,
+    "total_remaining": 5.0,
     "extra_logged": 1.0,
     "extra_breakdown": [
       {
@@ -23,8 +23,8 @@
         "id": "fdcw",
         "name": "FDCW Communications",
         "target_hours": 5.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 5.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 4.0,
         "github_clients": [
           "FDCW"
         ]
@@ -53,8 +53,8 @@
         "id": "edma",
         "name": "EdMa Website Support",
         "target_hours": 1.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "EdMa"
         ]
@@ -453,10 +453,30 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 19
+      "days_since_update": 20
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-20",
+      "project_id": "edma",
+      "hours": 1,
+      "note": "\u00c9ditions Mahayana bookstore / boutique work",
+      "extra": false,
+      "project_name": "EdMa Website Support",
+      "slots": [],
+      "time_label": null
+    },
+    {
+      "date": "2026-09-20",
+      "project_id": "fdcw",
+      "hours": 1,
+      "note": "FDCW Communications work",
+      "extra": false,
+      "project_name": "FDCW Communications",
+      "slots": [],
+      "time_label": null
+    },
     {
       "date": "2026-09-18",
       "project_id": "tushita",
@@ -616,36 +636,6 @@
       ],
       "project_name": "Mindful Design",
       "time_label": "11:45\u201312:45"
-    },
-    {
-      "date": "2026-09-07",
-      "project_id": "mindful-design",
-      "hours": 0.5,
-      "note": "Meeting",
-      "extra": true,
-      "slots": [
-        {
-          "start": "10:00",
-          "end": "10:30"
-        }
-      ],
-      "project_name": "Mindful Design",
-      "time_label": "10:00\u201310:30"
-    },
-    {
-      "date": "2026-09-06",
-      "project_id": "fpmt",
-      "hours": 1.5,
-      "note": "MindfulSEO plugin / UX planning & work under FPMT",
-      "extra": false,
-      "slots": [
-        {
-          "start": "15:30",
-          "end": "17:00"
-        }
-      ],
-      "project_name": "FPMT Website Maintenance",
-      "time_label": "15:30\u201317:00"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -685,7 +675,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-20T01:02:28+00:00",
+    "updated_at": "2026-09-20T09:07:25+00:00",
     "open_todos": 6
   },
   "reflection": {
@@ -722,16 +712,16 @@
         "start": "2026-09-14",
         "end": "2026-09-20",
         "total_target": 10.0,
-        "total_logged": 3.0,
-        "total_remaining": 7.0,
+        "total_logged": 5.0,
+        "total_remaining": 5.0,
         "extra_logged": 1.0,
         "projects": [
           {
             "id": "fdcw",
             "name": "FDCW Communications",
             "target_hours": 5.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 5.0,
+            "logged_hours": 1.0,
+            "remaining_hours": 4.0,
             "github_clients": [
               "FDCW"
             ]
@@ -760,8 +750,8 @@
             "id": "edma",
             "name": "EdMa Website Support",
             "target_hours": 1.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 1.0,
+            "logged_hours": 1.0,
+            "remaining_hours": 0.0,
             "github_clients": [
               "EdMa"
             ]
