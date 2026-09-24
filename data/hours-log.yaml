@@ -195,3 +195,21 @@ entries:
     hours: 0.5
     note: Team meeting
     extra: true
+  - date: 2026-09-24
+    project_id: tushita
+    hours: 2
+    note: MindfulSEO work
+    extra: false
+    slots:
+      - start: "16:00"
+        end: "17:00"
+      - start: "18:00"
+        end: "19:00"
+  - date: 2026-09-24
+    project_id: mindful-design
+    hours: 1
+    note: Call (unallocated until project assigned)
+    extra: true
+    slots:
+      - start: "17:00"
+        end: "18:00"
