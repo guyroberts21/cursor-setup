@@ -2,6 +2,29 @@
 
 Older week-by-week notes, kept off the live personal page.
 
+## W37 (14–20 Sep)
+
+- **Targets:** FDCW 5 · Rigpa 2 · Tushita 2 · EdMa 1 (total 10)
+- **Logged:** 1h FDCW · 2h Rigpa (done) · 1h Tushita · 1h EdMa (done) — **5h / 10h** + 1h extra MD (James — WordPress synonymizer)
+- Leftover: FDCW 4h short and Tushita 1h short — folded into W38 (FDCW 5h, Tushita 2h)
+- Still open: Rigpa CSS black-box push; EdMa ZIP when ready
+- Florence until Saturday
+
+### Sunday 20 Sep (logged)
+
+- **EdMa:** 1h — Éditions Mahayana bookstore / boutique work
+- **FDCW:** 1h — FDCW Communications work
+
+### Friday 18 Sep (logged)
+
+- **Tushita:** 1h — Mindful SEO work (19:00–20:00)
+
+### Thursday 17 Sep (logged)
+
+- **Meetings (extra MD):** 10:00–11:00 James — WordPress synonymizer (1h)
+- **Rigpa:** 2h — Rigpa work (19:00–21:00)
+- Plan had been Rigpa after James, then Friday Tushita 2h + EdMa 1h, and Sat eve + Sun morn FDCW 5h
+
 ## W36 (7–13 Sep)
 
 - **Targets:** EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)

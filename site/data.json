@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-20T12:23:05.291140+00:00",
+  "generated_at": "2026-09-24T01:48:23.452234+00:00",
   "week": {
-    "id": "2026-W37",
-    "start": "2026-09-14",
-    "end": "2026-09-20",
-    "work_days_remaining": 0
+    "id": "2026-W38",
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "work_days_remaining": 3
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 5.0,
-    "total_remaining": 5.0,
-    "extra_logged": 1.0,
+    "total_logged": 0.0,
+    "total_remaining": 10.0,
+    "extra_logged": 0.5,
     "extra_breakdown": [
       {
         "id": "mindful-design",
         "name": "Mindful Design",
-        "logged_hours": 1.0
+        "logged_hours": 0.5
       }
     ],
     "projects": [
@@ -23,40 +23,30 @@
         "id": "fdcw",
         "name": "FDCW Communications",
         "target_hours": 5.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 4.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 5.0,
         "github_clients": [
           "FDCW"
         ]
       },
       {
-        "id": "rigpa",
-        "name": "Rigpa Web Support",
-        "target_hours": 2.0,
-        "logged_hours": 2.0,
-        "remaining_hours": 0.0,
+        "id": "fpmt",
+        "name": "FPMT Website Maintenance",
+        "target_hours": 3.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 3.0,
         "github_clients": [
-          "Rigpa"
+          "FPMT"
         ]
       },
       {
         "id": "tushita",
         "name": "Tushita Website Support",
         "target_hours": 2.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 2.0,
         "github_clients": [
           "Tushita"
-        ]
-      },
-      {
-        "id": "edma",
-        "name": "EdMa Website Support",
-        "target_hours": 1.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 0.0,
-        "github_clients": [
-          "EdMa"
         ]
       }
     ]
@@ -75,7 +65,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 4,
@@ -90,7 +80,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 87,
@@ -106,7 +96,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 103,
@@ -121,7 +111,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 184,
@@ -137,7 +127,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 186,
@@ -152,7 +142,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 206,
@@ -168,7 +158,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 208,
@@ -183,7 +173,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     }
   ],
   "all_assigned_count": 18,
@@ -201,7 +191,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 4,
@@ -216,7 +206,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 12,
@@ -232,7 +222,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 13,
@@ -247,7 +237,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 86,
@@ -262,7 +252,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 87,
@@ -278,7 +268,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 103,
@@ -293,7 +283,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 184,
@@ -309,7 +299,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 186,
@@ -324,7 +314,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 196,
@@ -339,7 +329,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 206,
@@ -355,7 +345,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 208,
@@ -370,7 +360,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 211,
@@ -384,7 +374,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 259,
@@ -398,7 +388,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 26
     },
     {
       "number": 96,
@@ -411,7 +401,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 22
+      "days_since_update": 26
     },
     {
       "number": 97,
@@ -424,7 +414,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 22
+      "days_since_update": 26
     },
     {
       "number": 456,
@@ -437,7 +427,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 22
+      "days_since_update": 26
     },
     {
       "number": 10,
@@ -453,10 +443,20 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 20
+      "days_since_update": 23
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-21",
+      "project_id": "mindful-design",
+      "hours": 0.5,
+      "note": "Team meeting",
+      "extra": true,
+      "project_name": "Mindful Design",
+      "slots": [],
+      "time_label": null
+    },
     {
       "date": "2026-09-20",
       "project_id": "edma",
@@ -621,62 +621,57 @@
       "project_name": "Jamyang Digital Ops",
       "slots": [],
       "time_label": null
-    },
-    {
-      "date": "2026-09-07",
-      "project_id": "mindful-design",
-      "hours": 1,
-      "note": "Meeting",
-      "extra": true,
-      "slots": [
-        {
-          "start": "11:45",
-          "end": "12:45"
-        }
-      ],
-      "project_name": "Mindful Design",
-      "time_label": "11:45\u201312:45"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>This week \u2014 W37 (14\u201320 Sep)</h1>\n<p><strong>Targets:</strong> FDCW 5 \u00b7 Rigpa 2 \u00b7 Tushita 2 \u00b7 EdMa 1 (total 10)</p>\n<p><strong>Logged so far:</strong> 0h / 10h</p>\n<h2>Plan</h2>\n<ul>\n<li><strong>Thu 17 morning:</strong> James meeting \u2014 WordPress synonymizer (<strong>outside</strong> the 10h)</li>\n<li><strong>Thu after James:</strong> Rigpa 2h (sticky-in-month-view / event calendar \u2192 <strong>dev site</strong>)</li>\n<li><strong>Fri:</strong> Tushita 2h + EdMa 1h</li>\n<li><strong>Fri reminder:</strong> Fix / push CSS black boxes on Rigpa sites (cause already identified; just needs pushing)</li>\n<li><strong>Sat eve + Sun morn:</strong> FDCW 5h as one block</li>\n<li>Florence until Saturday</li>\n</ul>\n<h2>Carryover</h2>\n<p>W36 leftovers (FPMT scrolling / MindfulSEO, Jamyang Manager role) are in the <a href=\"archive.html\">archive</a>.</p>",
+    "notes_html": "<h1>This week \u2014 W38 (21\u201327 Sep)</h1>\n<p><strong>Targets:</strong> FDCW 5 \u00b7 FPMT 3 \u00b7 Tushita 2 (total 10)</p>\n<p><strong>Logged so far:</strong> 0h / 10h \u00b7 0.5h extra MD</p>\n<h2>Plan</h2>\n<ul>\n<li><strong>Catch-up:</strong> <strong>3h/day, 16:00\u201319:00</strong> (local evening block)</li>\n<li><strong>Mon 21:</strong> 0.5h Mindful Design team meeting (extra) \u2014 done</li>\n<li><strong>Thu 24:</strong> start with MindfulSEO (FPMT) + FDCW</li>\n</ul>\n<h2>Carry</h2>\n<ul>\n<li>Rigpa CSS black-box push still open (cause already identified; just needs pushing)</li>\n<li>EdMa ZIP when ready</li>\n</ul>\n<p>W37 closed at 5h / 10h (FDCW 4h short, Tushita 1h short). Those leftovers are in this week's FDCW 5h and Tushita 2h. Older notes are in the <a href=\"archive.html\">archive</a>.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
-        "text": "Fix / push CSS black boxes on Rigpa sites (cause already identified; just needs pushing)",
+        "text": "Mon 21 \u2014 0.5h Mindful Design team meeting (extra)",
+        "done": true,
+        "priority": false
+      },
+      {
+        "text": "Catch-up \u2014 3h/day, 16:00\u201319:00 (local evening block)",
+        "done": false,
+        "priority": true
+      },
+      {
+        "text": "Thu 24 \u2014 start with MindfulSEO (FPMT) + FDCW",
+        "done": false,
+        "priority": true
+      },
+      {
+        "text": "FDCW Communications \u2014 5h (clear W37 shortfall + this week)",
+        "done": false,
+        "priority": true
+      },
+      {
+        "text": "FPMT \u2014 3h MindfulSEO",
+        "done": false,
+        "priority": true
+      },
+      {
+        "text": "Tushita Website Support \u2014 2h (finish leftover + buffer)",
+        "done": false,
+        "priority": true
+      },
+      {
+        "text": "Rigpa CSS black-box push (cause already identified; just needs pushing)",
         "done": false,
         "priority": false
       },
       {
-        "text": "FDCW Communications \u2014 5h (Sat evening + Sunday morning as one block)",
-        "done": false,
-        "priority": true
-      },
-      {
-        "text": "Rigpa \u2014 2h Thursday after James (sticky-in-month-view / event calendar to the **dev site**)",
-        "done": false,
-        "priority": true
-      },
-      {
-        "text": "Tushita Website Support \u2014 2h Friday",
-        "done": false,
-        "priority": true
-      },
-      {
-        "text": "EdMa \u2014 1h Friday (redownload latest search bar plugin before further changes)",
-        "done": false,
-        "priority": true
-      },
-      {
-        "text": "James meeting Thu 17 morning \u2014 WordPress synonymizer (outside 10h)",
+        "text": "EdMa ZIP when ready",
         "done": false,
         "priority": false
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-20T09:07:25+00:00",
-    "open_todos": 6
+    "updated_at": "2026-09-24T01:48:12.304727+00:00",
+    "open_todos": 7
   },
   "reflection": {
     "latest": {
@@ -707,6 +702,49 @@
   },
   "archive": {
     "weeks": [
+      {
+        "id": "2026-W38",
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "total_target": 10.0,
+        "total_logged": 0.0,
+        "total_remaining": 10.0,
+        "extra_logged": 0.5,
+        "projects": [
+          {
+            "id": "fdcw",
+            "name": "FDCW Communications",
+            "target_hours": 5.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 5.0,
+            "github_clients": [
+              "FDCW"
+            ]
+          },
+          {
+            "id": "fpmt",
+            "name": "FPMT Website Maintenance",
+            "target_hours": 3.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 3.0,
+            "github_clients": [
+              "FPMT"
+            ]
+          },
+          {
+            "id": "tushita",
+            "name": "Tushita Website Support",
+            "target_hours": 2.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 2.0,
+            "github_clients": [
+              "Tushita"
+            ]
+          }
+        ],
+        "is_current": true,
+        "source": "data/weeks/2026-W38.yaml"
+      },
       {
         "id": "2026-W37",
         "start": "2026-09-14",
@@ -757,7 +795,7 @@
             ]
           }
         ],
-        "is_current": true,
+        "is_current": false,
         "source": "data/weeks/2026-W37.yaml"
       },
       {
@@ -867,9 +905,39 @@
         "source": "data/weeks/2026-W35.yaml"
       }
     ],
-    "notes_html": "<h1>Notes archive</h1>\n<p>Older week-by-week notes, kept off the live personal page.</p>\n<h2>W36 (7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Logged:</strong> 2h EdMa (done) \u00b7 2h FPMT \u00b7 1.5h Jamyang \u00b7 1h Rigpa \u2014 <strong>6.5h / 10h</strong> + 3.75h extra MD meetings</li>\n<li>Leftover: Rigpa sticky-in-month-view \u2014 remaining 1h; add changes to the <strong>dev site</strong> when it fits (carried into W37 Rigpa block)</li>\n<li>Optional leftover: load FPMT site in Local WP if there's spare time (nice-to-have)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h3>Thursday 10 Sep (logged)</h3>\n<ul>\n<li><strong>FPMT:</strong> 0.5h \u2014 Checked broken scrolling window on phone (FPMT)</li>\n</ul>\n<h3>Wednesday 9 Sep (logged)</h3>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 11:00\u201311:45 1:1 with Pep (0.75h) + 12:00\u201313:30 Mindful Design team meeting (1.5h)</li>\n<li>These are extra (not billable client buckets)</li>\n</ul>\n<h3>Tuesday 8 Sep (logged)</h3>\n<ul>\n<li><strong>Jamyang:</strong> 1h \u2014 Jamyang work (11:00\u201312:00)</li>\n<li><strong>Rigpa:</strong> 1h \u2014 sticky-in-month-view / event calendar (14:00\u201315:00)</li>\n</ul>\n<h3>Monday 7 Sep (logged)</h3>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work</li>\n</ul>\n<h2>W35 (31 Aug \u2013 6 Sep)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h3>Friday 4 Sep (logged)</h3>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h3>Wednesday 3 Sep</h3>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p>The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
+    "notes_html": "<h1>Notes archive</h1>\n<p>Older week-by-week notes, kept off the live personal page.</p>\n<h2>W37 (14\u201320 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> FDCW 5 \u00b7 Rigpa 2 \u00b7 Tushita 2 \u00b7 EdMa 1 (total 10)</li>\n<li><strong>Logged:</strong> 1h FDCW \u00b7 2h Rigpa (done) \u00b7 1h Tushita \u00b7 1h EdMa (done) \u2014 <strong>5h / 10h</strong> + 1h extra MD (James \u2014 WordPress synonymizer)</li>\n<li>Leftover: FDCW 4h short and Tushita 1h short \u2014 folded into W38 (FDCW 5h, Tushita 2h)</li>\n<li>Still open: Rigpa CSS black-box push; EdMa ZIP when ready</li>\n<li>Florence until Saturday</li>\n</ul>\n<h3>Sunday 20 Sep (logged)</h3>\n<ul>\n<li><strong>EdMa:</strong> 1h \u2014 \u00c9ditions Mahayana bookstore / boutique work</li>\n<li><strong>FDCW:</strong> 1h \u2014 FDCW Communications work</li>\n</ul>\n<h3>Friday 18 Sep (logged)</h3>\n<ul>\n<li><strong>Tushita:</strong> 1h \u2014 Mindful SEO work (19:00\u201320:00)</li>\n</ul>\n<h3>Thursday 17 Sep (logged)</h3>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201311:00 James \u2014 WordPress synonymizer (1h)</li>\n<li><strong>Rigpa:</strong> 2h \u2014 Rigpa work (19:00\u201321:00)</li>\n<li>Plan had been Rigpa after James, then Friday Tushita 2h + EdMa 1h, and Sat eve + Sun morn FDCW 5h</li>\n</ul>\n<h2>W36 (7\u201313 Sep)</h2>\n<ul>\n<li><strong>Targets:</strong> EdMa 2, FPMT 3, Jamyang 3, Rigpa 2 (total 10)</li>\n<li><strong>Logged:</strong> 2h EdMa (done) \u00b7 2h FPMT \u00b7 1.5h Jamyang \u00b7 1h Rigpa \u2014 <strong>6.5h / 10h</strong> + 3.75h extra MD meetings</li>\n<li>Leftover: Rigpa sticky-in-month-view \u2014 remaining 1h; add changes to the <strong>dev site</strong> when it fits (carried into W37 Rigpa block)</li>\n<li>Optional leftover: load FPMT site in Local WP if there's spare time (nice-to-have)</li>\n<li>Remember to log hours (and time slots) at end of each session</li>\n</ul>\n<h3>Thursday 10 Sep (logged)</h3>\n<ul>\n<li><strong>FPMT:</strong> 0.5h \u2014 Checked broken scrolling window on phone (FPMT)</li>\n</ul>\n<h3>Wednesday 9 Sep (logged)</h3>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 11:00\u201311:45 1:1 with Pep (0.75h) + 12:00\u201313:30 Mindful Design team meeting (1.5h)</li>\n<li>These are extra (not billable client buckets)</li>\n</ul>\n<h3>Tuesday 8 Sep (logged)</h3>\n<ul>\n<li><strong>Jamyang:</strong> 1h \u2014 Jamyang work (11:00\u201312:00)</li>\n<li><strong>Rigpa:</strong> 1h \u2014 sticky-in-month-view / event calendar (14:00\u201315:00)</li>\n</ul>\n<h3>Monday 7 Sep (logged)</h3>\n<ul>\n<li><strong>Meetings (extra MD):</strong> 10:00\u201310:30 (0.5h) + 11:45\u201312:45 (1h)</li>\n<li><strong>EdMa:</strong> 2h \u2014 \u00c9ditions Mahayana / Mindful Search work (week target done)</li>\n<li><strong>FPMT:</strong> 1.5h \u2014 MindfulSEO under FPMT</li>\n<li><strong>Jamyang:</strong> 0.5h \u2014 Jamyang work</li>\n</ul>\n<h2>W35 (31 Aug \u2013 6 Sep)</h2>\n<p>Weekend MindfulSEO work is logged under FPMT (not extra MD).</p>\n<h3>Saturday 5 Sep</h3>\n<ul>\n<li>Logged 1h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (12:00\u201313:00)</li>\n</ul>\n<h3>Sunday 6 Sep</h3>\n<ul>\n<li>Logged 1.5h FPMT \u2014 MindfulSEO plugin / UX planning &amp; work (15:30\u201317:00)</li>\n</ul>\n<h3>Friday 4 Sep (logged)</h3>\n<ul>\n<li><strong>Logged:</strong> 1.5h Rigpa (sticky-in-month-view / event calendar \u2014 ready for dev) + 1h Jamyang (live tickets)</li>\n<li>Earlier plan items (Pep holiday message, EdMa email draft, etc.) \u2014 leave as done/carry as needed</li>\n</ul>\n<h3>Wednesday 3 Sep</h3>\n<ul>\n<li><strong>Logged:</strong> 10:00\u201312:00 \u2014 1h Jamyang (MD-211) + 1h EdMa (circular photo)</li>\n<li><strong>Planned:</strong> ~1h later \u2014 pick up new tickets and/or implement to live, depending on energy</li>\n</ul>\n<h2>Reminders</h2>\n<ul>\n<li>Run <code>gh auth refresh -s read:project</code> for board Status on the dashboard</li>\n</ul>\n<h2>Meeting feedback \u2014 Kanban board</h2>\n<p>The Mindful Support GitHub Kanban board could use additional Status columns for the test-to-live workflow \u2014 e.g. move tickets from <em>tested on staging/website</em> to <em>tested and ready for production</em> (or <em>ready for live implementation</em>). Would make it easier to glance at your own tickets and see what's cleared for go-live vs still in test.</p>",
     "notes_source": "data/archive/notes-archive.md",
     "todos": [
+      {
+        "text": "James meeting Thu 17 morning \u2014 WordPress synonymizer (1h extra MD, logged)",
+        "done": true,
+        "priority": false
+      },
+      {
+        "text": "Rigpa \u2014 2h Thursday (sticky-in-month-view / event calendar)",
+        "done": true,
+        "priority": false
+      },
+      {
+        "text": "EdMa \u2014 1h (\u00c9ditions Mahayana bookstore / boutique)",
+        "done": true,
+        "priority": false
+      },
+      {
+        "text": "FDCW \u2014 1h of 5h logged (4h short; folded into W38 FDCW 5h)",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "Tushita \u2014 1h of 2h logged Fri 18 (1h leftover; folded into W38 Tushita 2h)",
+        "done": false,
+        "priority": false
+      },
+      {
+        "text": "Fix / push CSS black boxes on Rigpa sites (carried into W38)",
+        "done": false,
+        "priority": false
+      },
       {
         "text": "FPMT \u2014 1h left after 10 Sep phone-scroll check (MindfulSEO / site work; not in W37 targets)",
         "done": false,
@@ -902,6 +970,6 @@
       }
     ],
     "todos_source": "data/archive/todos-archive.md",
-    "open_todos": 4
+    "open_todos": 7
   }
 }

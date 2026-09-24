@@ -1,6 +1,15 @@
 # Todo archive
 
-W36 leftovers and older items, kept off the live personal page.
+W37 and older leftovers, kept off the live personal page.
+
+## W37 remaining (week closed)
+
+- [x] James meeting Thu 17 morning — WordPress synonymizer (1h extra MD, logged)
+- [x] Rigpa — 2h Thursday (sticky-in-month-view / event calendar)
+- [x] EdMa — 1h (Éditions Mahayana bookstore / boutique)
+- [ ] FDCW — 1h of 5h logged (4h short; folded into W38 FDCW 5h)
+- [ ] Tushita — 1h of 2h logged Fri 18 (1h leftover; folded into W38 Tushita 2h)
+- [ ] Fix / push CSS black boxes on Rigpa sites (carried into W38)
 
 ## W36 remaining (week closed)
 

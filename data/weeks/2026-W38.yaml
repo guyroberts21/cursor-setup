@@ -1,0 +1,16 @@
+week_start: 2026-09-21
+week_end: 2026-09-27
+projects:
+  - id: fdcw
+    name: FDCW Communications
+    target_hours: 5
+    github_clients: [FDCW]
+  - id: fpmt
+    name: FPMT Website Maintenance
+    target_hours: 3
+    github_clients: [FPMT]
+  - id: tushita
+    name: Tushita Website Support
+    target_hours: 2
+    github_clients: [Tushita]
+total_target: 10

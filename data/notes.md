@@ -1,18 +1,18 @@
-# This week — W37 (14–20 Sep)
+# This week — W38 (21–27 Sep)
 
-**Targets:** FDCW 5 · Rigpa 2 · Tushita 2 · EdMa 1 (total 10)
+**Targets:** FDCW 5 · FPMT 3 · Tushita 2 (total 10)
 
-**Logged so far:** 0h / 10h
+**Logged so far:** 0h / 10h · 0.5h extra MD
 
 ## Plan
 
-- **Thu 17 morning:** James meeting — WordPress synonymizer (**outside** the 10h)
-- **Thu after James:** Rigpa 2h (sticky-in-month-view / event calendar → **dev site**)
-- **Fri:** Tushita 2h + EdMa 1h
-- **Fri reminder:** Fix / push CSS black boxes on Rigpa sites (cause already identified; just needs pushing)
-- **Sat eve + Sun morn:** FDCW 5h as one block
-- Florence until Saturday
+- **Catch-up:** **3h/day, 16:00–19:00** (local evening block)
+- **Mon 21:** 0.5h Mindful Design team meeting (extra) — done
+- **Thu 24:** start with MindfulSEO (FPMT) + FDCW
 
-## Carryover
+## Carry
 
-W36 leftovers (FPMT scrolling / MindfulSEO, Jamyang Manager role) are in the [archive](archive.html).
+- Rigpa CSS black-box push still open (cause already identified; just needs pushing)
+- EdMa ZIP when ready
+
+W37 closed at 5h / 10h (FDCW 4h short, Tushita 1h short). Those leftovers are in this week's FDCW 5h and Tushita 2h. Older notes are in the [archive](archive.html).

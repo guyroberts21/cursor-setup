@@ -1,10 +1,12 @@
 # Personal todo
 
-## This week (W37)
+## This week (W38)
 
-- [ ] Fix / push CSS black boxes on Rigpa sites (cause already identified; just needs pushing)
-- [ ] ! FDCW Communications — 5h (Sat evening + Sunday morning as one block)
-- [ ] ! Rigpa — 2h Thursday after James (sticky-in-month-view / event calendar to the **dev site**)
-- [ ] ! Tushita Website Support — 2h Friday
-- [ ] ! EdMa — 1h Friday (redownload latest search bar plugin before further changes)
-- [ ] James meeting Thu 17 morning — WordPress synonymizer (outside 10h)
+- [x] Mon 21 — 0.5h Mindful Design team meeting (extra)
+- [ ] ! Catch-up — 3h/day, 16:00–19:00 (local evening block)
+- [ ] ! Thu 24 — start with MindfulSEO (FPMT) + FDCW
+- [ ] ! FDCW Communications — 5h (clear W37 shortfall + this week)
+- [ ] ! FPMT — 3h MindfulSEO
+- [ ] ! Tushita Website Support — 2h (finish leftover + buffer)
+- [ ] Rigpa CSS black-box push (cause already identified; just needs pushing)
+- [ ] EdMa ZIP when ready
