@@ -197,14 +197,12 @@ entries:
     extra: true
   - date: 2026-09-24
     project_id: tushita
-    hours: 2
+    hours: 1
     note: MindfulSEO work
     extra: false
     slots:
       - start: "16:00"
         end: "17:00"
-      - start: "18:00"
-        end: "19:00"
   - date: 2026-09-24
     project_id: mindful-design
     hours: 1
@@ -213,6 +211,14 @@ entries:
     slots:
       - start: "17:00"
         end: "18:00"
+  - date: 2026-09-24
+    project_id: rigpa
+    hours: 1
+    note: MindfulSEO work (reallocated from Tushita per weekly assignment)
+    extra: false
+    slots:
+      - start: "18:00"
+        end: "19:00"
   - date: 2026-09-25
     project_id: fdcw
     hours: 2
