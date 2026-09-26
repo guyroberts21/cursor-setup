@@ -213,3 +213,11 @@ entries:
     slots:
       - start: "17:00"
         end: "18:00"
+  - date: 2026-09-25
+    project_id: fdcw
+    hours: 2
+    note: Language translation plugins (Polylang AI)
+    extra: false
+    slots:
+      - start: "15:00"
+        end: "17:00"
