@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-24T10:32:09.079885+00:00",
+  "generated_at": "2026-09-26T10:12:12.496511+00:00",
   "week": {
     "id": "2026-W38",
     "start": "2026-09-21",
     "end": "2026-09-27",
-    "work_days_remaining": 3
+    "work_days_remaining": 1
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 2.0,
-    "total_remaining": 8.0,
+    "total_logged": 4.0,
+    "total_remaining": 6.0,
     "extra_logged": 1.5,
     "extra_breakdown": [
       {
@@ -23,8 +23,8 @@
         "id": "fdcw",
         "name": "FDCW Communications",
         "target_hours": 5.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 5.0,
+        "logged_hours": 2.0,
+        "remaining_hours": 3.0,
         "github_clients": [
           "FDCW"
         ]
@@ -65,7 +65,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 4,
@@ -80,7 +80,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 87,
@@ -96,7 +96,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 103,
@@ -111,7 +111,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 184,
@@ -127,7 +127,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 186,
@@ -142,7 +142,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 206,
@@ -158,7 +158,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 208,
@@ -173,7 +173,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     }
   ],
   "all_assigned_count": 18,
@@ -191,7 +191,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 4,
@@ -206,7 +206,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 12,
@@ -222,7 +222,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 13,
@@ -237,7 +237,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 86,
@@ -252,7 +252,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 87,
@@ -268,7 +268,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 103,
@@ -283,7 +283,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 184,
@@ -299,7 +299,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 186,
@@ -314,7 +314,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 196,
@@ -329,7 +329,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 206,
@@ -345,7 +345,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 208,
@@ -360,7 +360,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 211,
@@ -374,7 +374,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 259,
@@ -388,7 +388,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 27
+      "days_since_update": 29
     },
     {
       "number": 96,
@@ -401,7 +401,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 26
+      "days_since_update": 28
     },
     {
       "number": 97,
@@ -414,7 +414,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 26
+      "days_since_update": 28
     },
     {
       "number": 456,
@@ -427,7 +427,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 26
+      "days_since_update": 28
     },
     {
       "number": 10,
@@ -443,10 +443,25 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 23
+      "days_since_update": 25
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-25",
+      "project_id": "fdcw",
+      "hours": 2,
+      "note": "Language translation plugins (Polylang AI)",
+      "extra": false,
+      "slots": [
+        {
+          "start": "15:00",
+          "end": "17:00"
+        }
+      ],
+      "project_name": "FDCW Communications",
+      "time_label": "15:00\u201317:00"
+    },
     {
       "date": "2026-09-24",
       "project_id": "mindful-design",
@@ -625,21 +640,11 @@
       ],
       "project_name": "Jamyang Digital Ops",
       "time_label": "11:00\u201312:00"
-    },
-    {
-      "date": "2026-09-07",
-      "project_id": "edma",
-      "hours": 2,
-      "note": "\u00c9ditions Mahayana / Mindful Search work",
-      "extra": false,
-      "project_name": "EdMa Website Support",
-      "slots": [],
-      "time_label": null
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
   "personal": {
-    "notes_html": "<h1>This week \u2014 W38 (21\u201327 Sep)</h1>\n<p><strong>Targets:</strong> FDCW 5 \u00b7 FPMT 3 \u00b7 Tushita 2 (total 10)</p>\n<p><strong>Logged so far:</strong> 2h / 10h (Tushita 2 of target 2) \u00b7 1.5h extra MD (0.5 Mon meeting + 1.0 Thu call)</p>\n<h2>Plan</h2>\n<ul>\n<li><strong>Catch-up:</strong> <strong>3h/day, 16:00\u201319:00</strong> (local evening block)</li>\n<li><strong>Mon 21:</strong> 0.5h Mindful Design team meeting (extra) \u2014 done</li>\n<li><strong>Thu 24:</strong> evening block done \u2014 2h MindfulSEO under Tushita + 1h MD call (extra)</li>\n</ul>\n<h2>Carry</h2>\n<ul>\n<li>Rigpa CSS black-box push still open (cause already identified; just needs pushing)</li>\n<li>EdMa ZIP when ready</li>\n</ul>\n<p>W37 closed at 5h / 10h (FDCW 4h short, Tushita 1h short). Those leftovers are in this week's FDCW 5h and Tushita 2h. Older notes are in the <a href=\"archive.html\">archive</a>.</p>",
+    "notes_html": "<h1>This week \u2014 W38 (21\u201327 Sep)</h1>\n<p><strong>Targets:</strong> FDCW 5 \u00b7 FPMT 3 \u00b7 Tushita 2 (total 10)</p>\n<p><strong>Logged so far:</strong> 4h / 10h (FDCW 2 \u00b7 Tushita 2) \u00b7 1.5h extra MD (0.5 Mon meeting + 1.0 Thu call) \u00b7 FPMT still 0/3 \u00b7 FDCW 2/5</p>\n<h2>Plan</h2>\n<ul>\n<li><strong>Catch-up:</strong> <strong>3h/day, 16:00\u201319:00</strong> (local evening block)</li>\n<li><strong>Mon 21:</strong> 0.5h Mindful Design team meeting (extra) \u2014 done</li>\n<li><strong>Thu 24:</strong> evening block done \u2014 2h MindfulSEO under Tushita + 1h MD call (extra)</li>\n<li><strong>Fri 25:</strong> 2h FDCW on Polylang / language translation plugins (15:00\u201317:00)</li>\n</ul>\n<h2>Carry</h2>\n<ul>\n<li>Rigpa CSS black-box push still open (cause already identified; just needs pushing)</li>\n<li>EdMa ZIP when ready</li>\n</ul>\n<p>W37 closed at 5h / 10h (FDCW 4h short, Tushita 1h short). Those leftovers are in this week's FDCW 5h and Tushita 2h. Older notes are in the <a href=\"archive.html\">archive</a>.</p>",
     "notes_source": "data/notes.md",
     "todos": [
       {
@@ -684,7 +689,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-24T10:31:59.454370+00:00",
+    "updated_at": "2026-09-26T10:12:00.253497+00:00",
     "open_todos": 7
   },
   "reflection": {
@@ -721,16 +726,16 @@
         "start": "2026-09-21",
         "end": "2026-09-27",
         "total_target": 10.0,
-        "total_logged": 2.0,
-        "total_remaining": 8.0,
+        "total_logged": 4.0,
+        "total_remaining": 6.0,
         "extra_logged": 1.5,
         "projects": [
           {
             "id": "fdcw",
             "name": "FDCW Communications",
             "target_hours": 5.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 5.0,
+            "logged_hours": 2.0,
+            "remaining_hours": 3.0,
             "github_clients": [
               "FDCW"
             ]
