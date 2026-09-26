@@ -5,12 +5,16 @@ projects:
     name: FDCW Communications
     target_hours: 5
     github_clients: [FDCW]
-  - id: fpmt
-    name: FPMT Website Maintenance
-    target_hours: 3
-    github_clients: [FPMT]
+  - id: rigpa
+    name: Rigpa Web Support
+    target_hours: 2
+    github_clients: [Rigpa]
   - id: tushita
     name: Tushita Website Support
-    target_hours: 2
+    target_hours: 1
     github_clients: [Tushita]
+  - id: fpmt
+    name: FPMT Website Maintenance
+    target_hours: 2
+    github_clients: [FPMT]
 total_target: 10
