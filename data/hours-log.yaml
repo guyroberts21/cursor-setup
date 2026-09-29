@@ -227,3 +227,24 @@ entries:
     slots:
       - start: "15:00"
         end: "17:00"
+  - date: 2026-09-26
+    project_id: rigpa
+    hours: 1
+    note: MD-535 / mindfulevents-calendar list layout + Sangha filter diagnosis
+    extra: false
+    slots:
+      - start: "19:00"
+        end: "20:00"
+  - date: 2026-09-26
+    project_id: edma
+    hours: 2
+    note: MD-545 Charok Lama purchase/replay transfer (Cursor plan)
+    extra: false
+    slots:
+      - start: "20:00"
+        end: "22:00"
+  - date: 2026-09-27
+    project_id: rigpa
+    hours: 1
+    note: mindfulevents-calendar 1.8.113 Local amend (list CSS / meca_toggle)
+    extra: false
