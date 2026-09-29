@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:25:04.491228+00:00",
+  "generated_at": "2026-09-29T01:31:42.991644+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
@@ -785,10 +785,20 @@
         "start": "2026-09-21",
         "end": "2026-09-27",
         "total_target": 10.0,
-        "total_logged": 6.0,
-        "total_remaining": 4.0,
+        "total_logged": 8.0,
+        "total_remaining": 2.0,
         "extra_logged": 1.5,
         "projects": [
+          {
+            "id": "edma",
+            "name": "EdMa Website Support",
+            "target_hours": 2.0,
+            "logged_hours": 2.0,
+            "remaining_hours": 0.0,
+            "github_clients": [
+              "EdMa"
+            ]
+          },
           {
             "id": "fdcw",
             "name": "FDCW Communications",
@@ -817,16 +827,6 @@
             "remaining_hours": 0.0,
             "github_clients": [
               "Tushita"
-            ]
-          },
-          {
-            "id": "fpmt",
-            "name": "FPMT Website Maintenance",
-            "target_hours": 2.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 2.0,
-            "github_clients": [
-              "FPMT"
             ]
           }
         ],

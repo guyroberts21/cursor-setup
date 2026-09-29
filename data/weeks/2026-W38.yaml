@@ -1,6 +1,10 @@
 week_start: 2026-09-21
 week_end: 2026-09-27
 projects:
+  - id: edma
+    name: EdMa Website Support
+    target_hours: 2
+    github_clients: [EdMa]
   - id: fdcw
     name: FDCW Communications
     target_hours: 5
@@ -13,8 +17,4 @@ projects:
     name: Tushita Website Support
     target_hours: 1
     github_clients: [Tushita]
-  - id: fpmt
-    name: FPMT Website Maintenance
-    target_hours: 2
-    github_clients: [FPMT]
 total_target: 10
