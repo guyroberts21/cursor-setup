@@ -264,3 +264,8 @@ entries:
     slots:
       - start: "19:45"
         end: "20:20"
+  - date: 2026-09-29
+    project_id: edma
+    hours: 1
+    note: Boutique bulk table mobile/tablet controls layout (checkbox / AJOUTER)
+    extra: false

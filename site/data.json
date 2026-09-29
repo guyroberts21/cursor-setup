@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:31:49.822027+00:00",
+  "generated_at": "2026-09-29T15:06:58.099424+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 0.0,
-    "total_remaining": 10.0,
+    "total_logged": 1.0,
+    "total_remaining": 9.0,
     "extra_logged": 1.08,
     "extra_breakdown": [
       {
@@ -23,8 +23,8 @@
         "id": "edma",
         "name": "EdMa Website Support",
         "target_hours": 1.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 1.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "EdMa"
         ]
@@ -421,7 +421,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 31
+      "days_since_update": 32
     },
     {
       "number": 97,
@@ -434,7 +434,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 31
+      "days_since_update": 32
     },
     {
       "number": 456,
@@ -447,7 +447,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 31
+      "days_since_update": 32
     },
     {
       "number": 10,
@@ -463,10 +463,20 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 28
+      "days_since_update": 29
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-09-29",
+      "project_id": "edma",
+      "hours": 1,
+      "note": "Boutique bulk table mobile/tablet controls layout (checkbox / AJOUTER)",
+      "extra": false,
+      "project_name": "EdMa Website Support",
+      "slots": [],
+      "time_label": null
+    },
     {
       "date": "2026-09-28",
       "project_id": "mindful-design",
@@ -641,21 +651,6 @@
       ],
       "project_name": "Tushita Website Support",
       "time_label": "19:00\u201320:00"
-    },
-    {
-      "date": "2026-09-17",
-      "project_id": "rigpa",
-      "hours": 2,
-      "note": "Rigpa work",
-      "extra": false,
-      "slots": [
-        {
-          "start": "19:00",
-          "end": "21:00"
-        }
-      ],
-      "project_name": "Rigpa Web Support",
-      "time_label": "19:00\u201321:00"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -705,7 +700,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-29T01:41:46+00:00",
+    "updated_at": "2026-09-29T08:59:25+00:00",
     "open_todos": 7
   },
   "reflection": {
@@ -742,16 +737,16 @@
         "start": "2026-09-28",
         "end": "2026-10-04",
         "total_target": 10.0,
-        "total_logged": 0.0,
-        "total_remaining": 10.0,
+        "total_logged": 1.0,
+        "total_remaining": 9.0,
         "extra_logged": 1.08,
         "projects": [
           {
             "id": "edma",
             "name": "EdMa Website Support",
             "target_hours": 1.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 1.0,
+            "logged_hours": 1.0,
+            "remaining_hours": 0.0,
             "github_clients": [
               "EdMa"
             ]
