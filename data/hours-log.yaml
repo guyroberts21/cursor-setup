@@ -248,3 +248,19 @@ entries:
     hours: 1
     note: mindfulevents-calendar 1.8.113 Local amend (list CSS / meca_toggle)
     extra: false
+  - date: 2026-09-28
+    project_id: mindful-design
+    hours: 0.5
+    note: Weekly team meeting
+    extra: true
+    slots:
+      - start: "18:00"
+        end: "18:30"
+  - date: 2026-09-28
+    project_id: mindful-design
+    hours: 0.58
+    note: Tech meeting
+    extra: true
+    slots:
+      - start: "19:45"
+        end: "20:20"

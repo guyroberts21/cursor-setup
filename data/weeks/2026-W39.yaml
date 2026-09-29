@@ -1,0 +1,20 @@
+week_start: 2026-09-28
+week_end: 2026-10-04
+projects:
+  - id: fpmt
+    name: FPMT Website Maintenance
+    target_hours: 3
+    github_clients: [FPMT]
+  - id: jamyang
+    name: Jamyang Digital Ops
+    target_hours: 4
+    github_clients: [Jamyang]
+  - id: rigpa
+    name: Rigpa Web Support
+    target_hours: 2
+    github_clients: [Rigpa]
+  - id: tushita
+    name: Tushita Website Support
+    target_hours: 1
+    github_clients: [Tushita]
+total_target: 10

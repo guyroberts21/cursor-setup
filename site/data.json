@@ -1,40 +1,50 @@
 {
-  "generated_at": "2026-09-29T01:22:55.424650+00:00",
+  "generated_at": "2026-09-29T01:25:04.491228+00:00",
   "week": {
-    "id": "2026-W38",
-    "start": "2026-09-21",
-    "end": "2026-09-27",
-    "work_days_remaining": 0
+    "id": "2026-W39",
+    "start": "2026-09-28",
+    "end": "2026-10-04",
+    "work_days_remaining": 5
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 6.0,
-    "total_remaining": 4.0,
-    "extra_logged": 1.5,
+    "total_logged": 0.0,
+    "total_remaining": 10.0,
+    "extra_logged": 1.08,
     "extra_breakdown": [
       {
         "id": "mindful-design",
         "name": "Mindful Design",
-        "logged_hours": 1.5
+        "logged_hours": 1.08
       }
     ],
     "projects": [
       {
-        "id": "fdcw",
-        "name": "FDCW Communications",
-        "target_hours": 5.0,
-        "logged_hours": 2.0,
+        "id": "fpmt",
+        "name": "FPMT Website Maintenance",
+        "target_hours": 3.0,
+        "logged_hours": 0.0,
         "remaining_hours": 3.0,
         "github_clients": [
-          "FDCW"
+          "FPMT"
+        ]
+      },
+      {
+        "id": "jamyang",
+        "name": "Jamyang Digital Ops",
+        "target_hours": 4.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 4.0,
+        "github_clients": [
+          "Jamyang"
         ]
       },
       {
         "id": "rigpa",
         "name": "Rigpa Web Support",
         "target_hours": 2.0,
-        "logged_hours": 3.0,
-        "remaining_hours": 0.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 2.0,
         "github_clients": [
           "Rigpa"
         ]
@@ -43,20 +53,10 @@
         "id": "tushita",
         "name": "Tushita Website Support",
         "target_hours": 1.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 0.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 1.0,
         "github_clients": [
           "Tushita"
-        ]
-      },
-      {
-        "id": "fpmt",
-        "name": "FPMT Website Maintenance",
-        "target_hours": 2.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 2.0,
-        "github_clients": [
-          "FPMT"
         ]
       }
     ]
@@ -458,6 +458,36 @@
   ],
   "recent_log": [
     {
+      "date": "2026-09-28",
+      "project_id": "mindful-design",
+      "hours": 0.58,
+      "note": "Tech meeting",
+      "extra": true,
+      "slots": [
+        {
+          "start": "19:45",
+          "end": "20:20"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "19:45\u201320:20"
+    },
+    {
+      "date": "2026-09-28",
+      "project_id": "mindful-design",
+      "hours": 0.5,
+      "note": "Weekly team meeting",
+      "extra": true,
+      "slots": [
+        {
+          "start": "18:00",
+          "end": "18:30"
+        }
+      ],
+      "project_name": "Mindful Design",
+      "time_label": "18:00\u201318:30"
+    },
+    {
       "date": "2026-09-27",
       "project_id": "rigpa",
       "hours": 1,
@@ -616,31 +646,6 @@
       ],
       "project_name": "Rigpa Web Support",
       "time_label": "19:00\u201321:00"
-    },
-    {
-      "date": "2026-09-17",
-      "project_id": "mindful-design",
-      "hours": 1,
-      "note": "Meeting with James \u2014 WordPress synonymizer",
-      "extra": true,
-      "slots": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        }
-      ],
-      "project_name": "Mindful Design",
-      "time_label": "10:00\u201311:00"
-    },
-    {
-      "date": "2026-09-10",
-      "project_id": "fpmt",
-      "hours": 0.5,
-      "note": "Checked broken scrolling window on phone (FPMT)",
-      "extra": false,
-      "project_name": "FPMT Website Maintenance",
-      "slots": [],
-      "time_label": null
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -723,6 +728,59 @@
   "archive": {
     "weeks": [
       {
+        "id": "2026-W39",
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "total_target": 10.0,
+        "total_logged": 0.0,
+        "total_remaining": 10.0,
+        "extra_logged": 1.08,
+        "projects": [
+          {
+            "id": "fpmt",
+            "name": "FPMT Website Maintenance",
+            "target_hours": 3.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 3.0,
+            "github_clients": [
+              "FPMT"
+            ]
+          },
+          {
+            "id": "jamyang",
+            "name": "Jamyang Digital Ops",
+            "target_hours": 4.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 4.0,
+            "github_clients": [
+              "Jamyang"
+            ]
+          },
+          {
+            "id": "rigpa",
+            "name": "Rigpa Web Support",
+            "target_hours": 2.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 2.0,
+            "github_clients": [
+              "Rigpa"
+            ]
+          },
+          {
+            "id": "tushita",
+            "name": "Tushita Website Support",
+            "target_hours": 1.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 1.0,
+            "github_clients": [
+              "Tushita"
+            ]
+          }
+        ],
+        "is_current": true,
+        "source": "data/weeks/2026-W39.yaml"
+      },
+      {
         "id": "2026-W38",
         "start": "2026-09-21",
         "end": "2026-09-27",
@@ -772,7 +830,7 @@
             ]
           }
         ],
-        "is_current": true,
+        "is_current": false,
         "source": "data/weeks/2026-W38.yaml"
       },
       {
