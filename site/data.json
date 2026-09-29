@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:06:58.099424+00:00",
+  "generated_at": "2026-09-29T15:08:36.500601+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
@@ -473,9 +473,14 @@
       "hours": 1,
       "note": "Boutique bulk table mobile/tablet controls layout (checkbox / AJOUTER)",
       "extra": false,
+      "slots": [
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
       "project_name": "EdMa Website Support",
-      "slots": [],
-      "time_label": null
+      "time_label": "22:00\u201323:00"
     },
     {
       "date": "2026-09-28",

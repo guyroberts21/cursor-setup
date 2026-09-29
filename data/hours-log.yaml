@@ -269,3 +269,6 @@ entries:
     hours: 1
     note: Boutique bulk table mobile/tablet controls layout (checkbox / AJOUTER)
     extra: false
+    slots:
+      - start: "22:00"
+        end: "23:00"
