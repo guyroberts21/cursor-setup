@@ -272,3 +272,19 @@ entries:
     slots:
       - start: "22:00"
         end: "23:00"
+  - date: 2026-09-30
+    project_id: fpmt
+    hours: 1
+    note: EdMa Boutique work logged under FPMT per Guy
+    extra: false
+    slots:
+      - start: "15:00"
+        end: "16:00"
+  - date: 2026-09-30
+    project_id: mindful-design
+    hours: 1.5
+    note: Pep meeting
+    extra: true
+    slots:
+      - start: "18:00"
+        end: "19:30"
