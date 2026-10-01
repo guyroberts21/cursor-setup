@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:04:33.195280+00:00",
+  "generated_at": "2026-10-01T09:35:07.824647+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
@@ -8,8 +8,8 @@
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 2.0,
-    "total_remaining": 8.0,
+    "total_logged": 4.0,
+    "total_remaining": 6.0,
     "extra_logged": 2.58,
     "extra_breakdown": [
       {
@@ -53,8 +53,8 @@
         "id": "rigpa",
         "name": "Rigpa Web Support",
         "target_hours": 2.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 2.0,
+        "logged_hours": 2.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "Rigpa"
         ]
@@ -468,6 +468,21 @@
   ],
   "recent_log": [
     {
+      "date": "2026-10-01",
+      "project_id": "rigpa",
+      "hours": 2.0,
+      "note": "Rigpa week target; includes FDCW Polylang AI work logged under Rigpa (only one small Rigpa ticket)",
+      "extra": false,
+      "slots": [
+        {
+          "start": "17:00",
+          "end": "19:00"
+        }
+      ],
+      "project_name": "Rigpa Web Support",
+      "time_label": "17:00\u201319:00"
+    },
+    {
       "date": "2026-09-30",
       "project_id": "mindful-design",
       "hours": 1.5,
@@ -651,16 +666,6 @@
       "project_name": "Mindful Design",
       "slots": [],
       "time_label": null
-    },
-    {
-      "date": "2026-09-20",
-      "project_id": "edma",
-      "hours": 1,
-      "note": "\u00c9ditions Mahayana bookstore / boutique work",
-      "extra": false,
-      "project_name": "EdMa Website Support",
-      "slots": [],
-      "time_label": null
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -747,8 +752,8 @@
         "start": "2026-09-28",
         "end": "2026-10-04",
         "total_target": 10.0,
-        "total_logged": 2.0,
-        "total_remaining": 8.0,
+        "total_logged": 4.0,
+        "total_remaining": 6.0,
         "extra_logged": 2.58,
         "projects": [
           {
@@ -785,8 +790,8 @@
             "id": "rigpa",
             "name": "Rigpa Web Support",
             "target_hours": 2.0,
-            "logged_hours": 0.0,
-            "remaining_hours": 2.0,
+            "logged_hours": 2.0,
+            "remaining_hours": 0.0,
             "github_clients": [
               "Rigpa"
             ]

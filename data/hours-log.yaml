@@ -288,3 +288,11 @@ entries:
     slots:
       - start: "18:00"
         end: "19:30"
+  - date: 2026-10-01
+    project_id: rigpa
+    hours: 2.0
+    note: Rigpa week target; includes FDCW Polylang AI work logged under Rigpa (only one small Rigpa ticket)
+    extra: false
+    slots:
+      - start: "17:00"
+        end: "19:00"
