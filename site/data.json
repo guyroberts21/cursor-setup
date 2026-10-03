@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-02T22:12:08.781207+00:00",
+  "generated_at": "2026-10-03T13:02:48.273723+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
     "end": "2026-10-04",
-    "work_days_remaining": 2
+    "work_days_remaining": 1
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 6.0,
-    "total_remaining": 4.0,
+    "total_logged": 9.0,
+    "total_remaining": 1.0,
     "extra_logged": 2.58,
     "extra_breakdown": [
       {
@@ -33,8 +33,8 @@
         "id": "fpmt",
         "name": "FPMT Website Maintenance",
         "target_hours": 2.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 2.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "FPMT"
         ]
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 4.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 3.0,
+        "logged_hours": 3.0,
+        "remaining_hours": 1.0,
         "github_clients": [
           "Jamyang"
         ]
@@ -85,7 +85,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 4,
@@ -100,7 +100,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 87,
@@ -116,7 +116,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 103,
@@ -131,7 +131,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 184,
@@ -147,7 +147,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 186,
@@ -162,7 +162,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 206,
@@ -178,7 +178,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 208,
@@ -193,7 +193,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     }
   ],
   "all_assigned_count": 18,
@@ -211,7 +211,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 4,
@@ -226,7 +226,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 12,
@@ -242,7 +242,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 13,
@@ -257,7 +257,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 86,
@@ -272,7 +272,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 87,
@@ -288,7 +288,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 103,
@@ -303,7 +303,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 184,
@@ -319,7 +319,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 186,
@@ -334,7 +334,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 196,
@@ -349,7 +349,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 206,
@@ -365,7 +365,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 208,
@@ -380,7 +380,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 211,
@@ -394,7 +394,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 259,
@@ -408,7 +408,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 36
     },
     {
       "number": 96,
@@ -463,10 +463,30 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 32
+      "days_since_update": 33
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-10-03",
+      "project_id": "jamyang",
+      "hours": 2,
+      "note": "Jamyang work",
+      "extra": false,
+      "project_name": "Jamyang Digital Ops",
+      "slots": [],
+      "time_label": null
+    },
+    {
+      "date": "2026-10-03",
+      "project_id": "fpmt",
+      "hours": 1,
+      "note": "FPMT hour",
+      "extra": false,
+      "project_name": "FPMT Website Maintenance",
+      "slots": [],
+      "time_label": null
+    },
     {
       "date": "2026-10-02",
       "project_id": "jamyang",
@@ -641,36 +661,6 @@
       ],
       "project_name": "FDCW Communications",
       "time_label": "15:00\u201317:00"
-    },
-    {
-      "date": "2026-09-24",
-      "project_id": "rigpa",
-      "hours": 1,
-      "note": "MindfulSEO work (reallocated from Tushita per weekly assignment)",
-      "extra": false,
-      "slots": [
-        {
-          "start": "18:00",
-          "end": "19:00"
-        }
-      ],
-      "project_name": "Rigpa Web Support",
-      "time_label": "18:00\u201319:00"
-    },
-    {
-      "date": "2026-09-24",
-      "project_id": "mindful-design",
-      "hours": 1,
-      "note": "Call (unallocated until project assigned)",
-      "extra": true,
-      "slots": [
-        {
-          "start": "17:00",
-          "end": "18:00"
-        }
-      ],
-      "project_name": "Mindful Design",
-      "time_label": "17:00\u201318:00"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -757,8 +747,8 @@
         "start": "2026-09-28",
         "end": "2026-10-04",
         "total_target": 10.0,
-        "total_logged": 6.0,
-        "total_remaining": 4.0,
+        "total_logged": 9.0,
+        "total_remaining": 1.0,
         "extra_logged": 2.58,
         "projects": [
           {
@@ -775,8 +765,8 @@
             "id": "fpmt",
             "name": "FPMT Website Maintenance",
             "target_hours": 2.0,
-            "logged_hours": 1.0,
-            "remaining_hours": 1.0,
+            "logged_hours": 2.0,
+            "remaining_hours": 0.0,
             "github_clients": [
               "FPMT"
             ]
@@ -785,8 +775,8 @@
             "id": "jamyang",
             "name": "Jamyang Digital Ops",
             "target_hours": 4.0,
-            "logged_hours": 1.0,
-            "remaining_hours": 3.0,
+            "logged_hours": 3.0,
+            "remaining_hours": 1.0,
             "github_clients": [
               "Jamyang"
             ]

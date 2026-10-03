@@ -312,3 +312,13 @@ entries:
     slots:
       - start: "18:00"
         end: "19:00"
+  - date: 2026-10-03
+    project_id: fpmt
+    hours: 1
+    note: FPMT hour
+    extra: false
+  - date: 2026-10-03
+    project_id: jamyang
+    hours: 2
+    note: Jamyang work
+    extra: false
