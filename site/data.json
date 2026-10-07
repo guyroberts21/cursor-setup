@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-03T13:02:48.273723+00:00",
+  "generated_at": "2026-10-07T08:18:06.934193+00:00",
   "week": {
     "id": "2026-W39",
     "start": "2026-09-28",
     "end": "2026-10-04",
-    "work_days_remaining": 1
+    "work_days_remaining": 0
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 9.0,
-    "total_remaining": 1.0,
+    "total_logged": 10.0,
+    "total_remaining": 0.0,
     "extra_logged": 2.58,
     "extra_breakdown": [
       {
@@ -43,8 +43,8 @@
         "id": "jamyang",
         "name": "Jamyang Digital Ops",
         "target_hours": 4.0,
-        "logged_hours": 3.0,
-        "remaining_hours": 1.0,
+        "logged_hours": 4.0,
+        "remaining_hours": 0.0,
         "github_clients": [
           "Jamyang"
         ]
@@ -85,7 +85,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 4,
@@ -100,7 +100,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 87,
@@ -116,7 +116,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 103,
@@ -131,7 +131,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 184,
@@ -147,7 +147,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 186,
@@ -162,7 +162,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 206,
@@ -178,7 +178,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 208,
@@ -193,7 +193,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     }
   ],
   "all_assigned_count": 18,
@@ -211,7 +211,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 4,
@@ -226,7 +226,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 12,
@@ -242,7 +242,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 13,
@@ -257,7 +257,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 86,
@@ -272,7 +272,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 87,
@@ -288,7 +288,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 103,
@@ -303,7 +303,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 184,
@@ -319,7 +319,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 186,
@@ -334,7 +334,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 196,
@@ -349,7 +349,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 206,
@@ -365,7 +365,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 208,
@@ -380,7 +380,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 211,
@@ -394,7 +394,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 259,
@@ -408,7 +408,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 36
+      "days_since_update": 40
     },
     {
       "number": 96,
@@ -421,7 +421,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 39
     },
     {
       "number": 97,
@@ -434,7 +434,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 39
     },
     {
       "number": 456,
@@ -447,7 +447,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 35
+      "days_since_update": 39
     },
     {
       "number": 10,
@@ -463,10 +463,25 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 33
+      "days_since_update": 36
     }
   ],
   "recent_log": [
+    {
+      "date": "2026-10-04",
+      "project_id": "jamyang",
+      "hours": 1,
+      "note": "MindfulSEO work (last W39 hour toward Jamyang target)",
+      "extra": false,
+      "slots": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "project_name": "Jamyang Digital Ops",
+      "time_label": "16:00\u201317:00"
+    },
     {
       "date": "2026-10-03",
       "project_id": "jamyang",
@@ -646,21 +661,6 @@
       ],
       "project_name": "Rigpa Web Support",
       "time_label": "19:00\u201320:00"
-    },
-    {
-      "date": "2026-09-25",
-      "project_id": "fdcw",
-      "hours": 2,
-      "note": "Language translation plugins (Polylang AI)",
-      "extra": false,
-      "slots": [
-        {
-          "start": "15:00",
-          "end": "17:00"
-        }
-      ],
-      "project_name": "FDCW Communications",
-      "time_label": "15:00\u201317:00"
     }
   ],
   "github_synced_at": "2026-09-01T15:57:59.743794+00:00",
@@ -710,7 +710,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-10-02T10:42:00+00:00",
+    "updated_at": "2026-10-06T16:12:34+00:00",
     "open_todos": 7
   },
   "reflection": {
@@ -747,8 +747,8 @@
         "start": "2026-09-28",
         "end": "2026-10-04",
         "total_target": 10.0,
-        "total_logged": 9.0,
-        "total_remaining": 1.0,
+        "total_logged": 10.0,
+        "total_remaining": 0.0,
         "extra_logged": 2.58,
         "projects": [
           {
@@ -775,8 +775,8 @@
             "id": "jamyang",
             "name": "Jamyang Digital Ops",
             "target_hours": 4.0,
-            "logged_hours": 3.0,
-            "remaining_hours": 1.0,
+            "logged_hours": 4.0,
+            "remaining_hours": 0.0,
             "github_clients": [
               "Jamyang"
             ]
