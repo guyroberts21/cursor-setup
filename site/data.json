@@ -1,30 +1,24 @@
 {
-  "generated_at": "2026-10-01T09:35:07.824647+00:00",
+  "generated_at": "2026-10-07T08:19:17.619013+00:00",
   "week": {
-    "id": "2026-W39",
-    "start": "2026-09-28",
-    "end": "2026-10-04",
-    "work_days_remaining": 3
+    "id": "2026-W40",
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "work_days_remaining": 4
   },
   "hours": {
     "total_target": 10.0,
-    "total_logged": 4.0,
-    "total_remaining": 6.0,
-    "extra_logged": 2.58,
-    "extra_breakdown": [
-      {
-        "id": "mindful-design",
-        "name": "Mindful Design",
-        "logged_hours": 2.58
-      }
-    ],
+    "total_logged": 0.0,
+    "total_remaining": 10.0,
+    "extra_logged": 0,
+    "extra_breakdown": [],
     "projects": [
       {
         "id": "edma",
         "name": "EdMa Website Support",
-        "target_hours": 1.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 0.0,
+        "target_hours": 3.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 3.0,
         "github_clients": [
           "EdMa"
         ]
@@ -32,41 +26,21 @@
       {
         "id": "fpmt",
         "name": "FPMT Website Maintenance",
-        "target_hours": 2.0,
-        "logged_hours": 1.0,
-        "remaining_hours": 1.0,
+        "target_hours": 4.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 4.0,
         "github_clients": [
           "FPMT"
         ]
       },
       {
-        "id": "jamyang",
-        "name": "Jamyang Digital Ops",
-        "target_hours": 4.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 4.0,
-        "github_clients": [
-          "Jamyang"
-        ]
-      },
-      {
         "id": "rigpa",
         "name": "Rigpa Web Support",
-        "target_hours": 2.0,
-        "logged_hours": 2.0,
-        "remaining_hours": 0.0,
+        "target_hours": 3.0,
+        "logged_hours": 0.0,
+        "remaining_hours": 3.0,
         "github_clients": [
           "Rigpa"
-        ]
-      },
-      {
-        "id": "tushita",
-        "name": "Tushita Website Support",
-        "target_hours": 1.0,
-        "logged_hours": 0.0,
-        "remaining_hours": 1.0,
-        "github_clients": [
-          "Tushita"
         ]
       }
     ]
@@ -85,7 +59,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 4,
@@ -100,7 +74,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 87,
@@ -116,7 +90,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 103,
@@ -131,7 +105,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 184,
@@ -147,7 +121,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 186,
@@ -162,7 +136,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 206,
@@ -178,7 +152,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 208,
@@ -193,7 +167,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     }
   ],
   "all_assigned_count": 18,
@@ -211,7 +185,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:17Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 4,
@@ -226,7 +200,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:09:33Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 12,
@@ -242,7 +216,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:32Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 13,
@@ -257,7 +231,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-28T06:10:54Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 86,
@@ -272,7 +246,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:29Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 87,
@@ -288,7 +262,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T06:23:37Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 103,
@@ -303,7 +277,7 @@
       "client": "FPMT",
       "updated_at": "2026-08-28T06:25:34Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 184,
@@ -319,7 +293,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:35:47Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 186,
@@ -334,7 +308,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:36:04Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 196,
@@ -349,7 +323,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:37:14Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 206,
@@ -365,7 +339,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:36Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 208,
@@ -380,7 +354,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:38:53Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 211,
@@ -394,7 +368,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:39:18Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 259,
@@ -408,7 +382,7 @@
       "client": "Jamyang",
       "updated_at": "2026-08-28T06:46:30Z",
       "status": null,
-      "days_since_update": 34
+      "days_since_update": 40
     },
     {
       "number": 96,
@@ -421,7 +395,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:18Z",
       "status": null,
-      "days_since_update": 33
+      "days_since_update": 39
     },
     {
       "number": 97,
@@ -434,7 +408,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:24Z",
       "status": null,
-      "days_since_update": 33
+      "days_since_update": 39
     },
     {
       "number": 456,
@@ -447,7 +421,7 @@
       "client": "FDCW",
       "updated_at": "2026-08-28T14:00:30Z",
       "status": null,
-      "days_since_update": 33
+      "days_since_update": 39
     },
     {
       "number": 10,
@@ -463,7 +437,7 @@
       "client": "EdMa",
       "updated_at": "2026-08-31T11:30:51Z",
       "status": null,
-      "days_since_update": 30
+      "days_since_update": 36
     }
   ],
   "recent_log": [
@@ -715,7 +689,7 @@
       }
     ],
     "todos_source": "data/todos.md",
-    "updated_at": "2026-09-30T16:18:33+00:00",
+    "updated_at": "2026-10-06T16:12:34+00:00",
     "open_todos": 7
   },
   "reflection": {
@@ -747,6 +721,49 @@
   },
   "archive": {
     "weeks": [
+      {
+        "id": "2026-W40",
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "total_target": 10.0,
+        "total_logged": 0.0,
+        "total_remaining": 10.0,
+        "extra_logged": 0,
+        "projects": [
+          {
+            "id": "edma",
+            "name": "EdMa Website Support",
+            "target_hours": 3.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 3.0,
+            "github_clients": [
+              "EdMa"
+            ]
+          },
+          {
+            "id": "fpmt",
+            "name": "FPMT Website Maintenance",
+            "target_hours": 4.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 4.0,
+            "github_clients": [
+              "FPMT"
+            ]
+          },
+          {
+            "id": "rigpa",
+            "name": "Rigpa Web Support",
+            "target_hours": 3.0,
+            "logged_hours": 0.0,
+            "remaining_hours": 3.0,
+            "github_clients": [
+              "Rigpa"
+            ]
+          }
+        ],
+        "is_current": true,
+        "source": "data/weeks/2026-W40.yaml"
+      },
       {
         "id": "2026-W39",
         "start": "2026-09-28",
@@ -807,7 +824,7 @@
             ]
           }
         ],
-        "is_current": true,
+        "is_current": false,
         "source": "data/weeks/2026-W39.yaml"
       },
       {
